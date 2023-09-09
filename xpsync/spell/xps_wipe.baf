@@ -1,0 +1,70 @@
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastSummonerOf(Myself),540021)
+		Continue()
+END
+
+
+IF
+    Global("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",0)
+	Global("XPSYNC_ANIMATIONS_FADED","GLOBAL",0)
+	Global("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+THEN
+    RESPONSE #100
+		// Add a token training animation
+		SetGlobal("XPSYNC_ANIMATIONS_FADED","GLOBAL",1)
+		FadeToColor([20.0],0)
+		Continue()
+END
+
+
+// First band is a custom 50-1000
+IF
+	CheckStatLT(LastSummonerOf(Myself),1000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip0",OVERRIDE)
+END
+
+// After that they're all 1% bands one script for each power of ten
+// Up to 100 million
+IF
+	CheckStatLT(LastSummonerOf(Myself),10000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip3",OVERRIDE)
+END
+IF
+	CheckStatLT(LastSummonerOf(Myself),100000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip4",OVERRIDE)
+END
+IF
+	CheckStatLT(LastSummonerOf(Myself),1000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip5",OVERRIDE)
+END
+IF
+	CheckStatLT(LastSummonerOf(Myself),10000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip6",OVERRIDE)
+END
+IF
+	CheckStatLT(LastSummonerOf(Myself),100000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wip7",OVERRIDE)
+END
+
+// We've hit the end - NPC XP is beyond our test range (really!?!)
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END

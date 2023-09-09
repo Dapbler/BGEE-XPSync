@@ -1,0 +1,78 @@
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastSummonerOf(Myself),540011)
+		Continue()
+END
+
+// Ensure seasoned adventurers Khalid and Jaheira have at least 4K
+IF
+	CheckStatLT(Player1,4001,XP)
+	OR(2)
+			Name("Khalid", LastSummonerOf(Myself))
+			Name("Jaheira", LastSummonerOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4000)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Anyone else use a minimum of 1000
+// That should make them slightly more useful early on and reduce
+// the risk of ending up with NEGATIVE XP/maxcap
+IF
+	CheckStatLT(Player1,1001,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1000)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// After that they're all 1% bands one script for each power of ten
+// Up to 100 million
+IF
+	CheckStatLT(Player1,10000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_mai3",OVERRIDE)
+END
+
+IF
+	CheckStatLT(Player1,100000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_mai4",OVERRIDE)
+END
+
+IF
+	CheckStatLT(Player1,1000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_mai5",OVERRIDE)
+END
+
+IF
+	CheckStatLT(Player1,10000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_mai6",OVERRIDE)
+END
+
+IF
+	CheckStatLT(Player1,100000000,XP)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_mai7",OVERRIDE)
+END
+
+// Out of range, onto our next step
+IF
+	True()
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",100000000)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+

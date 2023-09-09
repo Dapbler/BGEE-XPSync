@@ -1,0 +1,200 @@
+// Requires variable L1XPSYNC_BAF_PATH - path to source l1xpsync.baf
+// Requires variable FLOOR_ACTIVATED - True()/False()
+
+COPY ~xpsync/spell/xps_team.baf~ ~override~
+COMPILE ~override/xps_team.baf~
+DELETE + ~override/xps_team.baf~
+
+COPY ~xpsync/spell/xpscreai.baf~ ~override~
+REPLACE ~540001~ @540001
+COMPILE ~override/xpscreai.baf~
+DELETE + ~override/xpscreai.baf~
+
+COPY ~xpsync/spell/xps_main.baf~ ~override~
+REPLACE ~540011~ @540011
+COMPILE ~override/xps_main.baf~
+DELETE + ~override/xps_main.baf~
+
+COPY ~xpsync/spell/xps_wipe.baf~ ~override~
+REPLACE ~540021~ @540021
+COMPILE ~override/xps_wipe.baf~
+DELETE + ~override/xps_wipe.baf~
+
+COPY ~xpsync/spell/xps_pd.baf~ ~override~
+REPLACE ~540101~ @540101
+COMPILE ~override/xps_pd.baf~
+DELETE + ~override/xps_pd.baf~
+
+COPY ~xpsync/spell/xps_nd.baf~ ~override~
+REPLACE ~540201~ @540201
+COMPILE ~override/xps_nd.baf~
+DELETE + ~override/xps_nd.baf~
+
+COPY ~xpsync/spell/xps_conf.baf~ ~override~
+REPLACE ~510000~ @510000 // Set: Not dual cass
+REPLACE ~510001~ @510001 // Set: Dual class (inactive)
+REPLACE ~510002~ @510002 // Set: Dual class (active)
+REPLACE ~520000~ @520000 // Set class history: None
+REPLACE ~520001~ @520001 // Set class history: Cleric
+REPLACE ~520002~ @520002 // Set class history: Druid
+REPLACE ~520003~ @520003 // Set class history: Fighter
+REPLACE ~520004~ @520004 // Set class history: Mage
+REPLACE ~520005~ @520005 // Set class history: Ranger
+REPLACE ~520006~ @520006 // Set class history: Thief
+REPLACE ~520100~ @520100 // Set option: humans could multi-class
+REPLACE ~520101~ @520101 // Set option: humans NEVER multi-class
+REPLACE ~530000~ @530000 // Sync trigger message
+REPLACE ~530003~ @530003 // Sync Party trigger message
+COMPILE ~override/xps_conf.baf~
+DELETE + ~override/xps_conf.baf~ // Cleanup our modified .baf
+MOVE ~override/xps_conf.bcs~ ~scripts/xps_conf.bs~
+
+APPEND ~scrpdesc.2DA~
+~xps_conf	syncxp_aititle 	syncxp_aidesc~
+
+COPY_EXISTING ~scrpdesc.2da~ ~override/scrpdesc.2da~
+REPLACE ~syncxp_aititle~ @500000
+REPLACE ~syncxp_aidesc~ @500001
+
+COPY_EXISTING ~xplevel.2da~ ~override~
+  COUNT_2DA_ROWS 2 "rows"
+  COUNT_2DA_COLS "cols"
+  //PATCH_PRINT "cols %cols%"
+  // BGEE+SoD is returning 42 for cols
+  // Maybe best to limit to 30 or so anyway - leave for now
+  FOR (row = 2; row < %rows%; row = row + 1) BEGIN
+    READ_2DA_ENTRY "%row%" 0 2 class
+    //PATCH_PRINT "Reading XP for %class%"
+        FOR (lvl = 2; lvl < %cols%-1; lvl = lvl + 1) BEGIN
+            // Weirdness with XP values being offset by one row
+            SET lrow=row+1
+            READ_2DA_ENTRY "%lrow%" "%lvl%" 0 xp_val
+            SET EVALUATE_BUFFER "%class%_%lvl%_XP" = xp_val
+            //PATCH_PRINT "%class% %lvl% %xp_val%"
+        END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+// Copy our level XP scripts across replaicng CLASS_#_XP with
+// the XP cost of that level (via vars created above from the 2da)
+
+COPY ~xpsync/dualxp/xps_ppal.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pran.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pcle.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pdru.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pthi.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pbar.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_psor.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pmon.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_psha.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pmag.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_pfig.baf~ ~override~
+EVALUATE_BUFFER
+REPLACE ~520003~ @520003 // Set class history: Fighter
+COPY ~xpsync/dualxp/xps_nmag.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nfig.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_npal.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nran.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_ncle.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_ndru.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nthi.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nbar.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nsor.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nmon.baf~ ~override~
+EVALUATE_BUFFER
+COPY ~xpsync/dualxp/xps_nsha.baf~ ~override~
+EVALUATE_BUFFER
+
+COMPILE ~override/xps_nbar.baf~
+DELETE + ~override/xps_nbar.baf~
+COMPILE ~override/xps_ncle.baf~
+DELETE + ~override/xps_ncle.baf~
+COMPILE ~override/xps_ndru.baf~
+DELETE + ~override/xps_ndru.baf~
+COMPILE ~override/xps_nfig.baf~
+DELETE + ~override/xps_nfig.baf~
+COMPILE ~override/xps_nmag.baf~
+DELETE + ~override/xps_nmag.baf~
+COMPILE ~override/xps_nmon.baf~
+DELETE + ~override/xps_nmon.baf~
+COMPILE ~override/xps_npal.baf~
+DELETE + ~override/xps_npal.baf~
+COMPILE ~override/xps_nran.baf~
+DELETE + ~override/xps_nran.baf~
+COMPILE ~override/xps_nsha.baf~
+DELETE + ~override/xps_nsha.baf~
+COMPILE ~override/xps_nsor.baf~
+DELETE + ~override/xps_nsor.baf~
+COMPILE ~override/xps_nthi.baf~
+DELETE + ~override/xps_nthi.baf~
+COMPILE ~override/xps_pbar.baf~
+DELETE + ~override/xps_pbar.baf~
+COMPILE ~override/xps_pcle.baf~
+DELETE + ~override/xps_pcle.baf~
+COMPILE ~override/xps_pdru.baf~
+DELETE + ~override/xps_pdru.baf~
+COMPILE ~override/xps_pfig.baf~
+DELETE + ~override/xps_pfig.baf~
+COMPILE ~override/xps_pmag.baf~
+DELETE + ~override/xps_pmag.baf~
+COMPILE ~override/xps_pmon.baf~
+DELETE + ~override/xps_pmon.baf~
+COMPILE ~override/xps_ppal.baf~
+DELETE + ~override/xps_ppal.baf~
+COMPILE ~override/xps_pran.baf~
+DELETE + ~override/xps_pran.baf~
+COMPILE ~override/xps_psha.baf~
+DELETE + ~override/xps_psha.baf~
+COMPILE ~override/xps_psor.baf~
+DELETE + ~override/xps_psor.baf~
+COMPILE ~override/xps_pthi.baf~
+DELETE + ~override/xps_pthi.baf~
+
+COPY ~xpsync/spell/xpsgrant.baf~ ~override~
+REPLACE ~600101~ @600101
+COMPILE ~override/xpsgrant.baf~
+DELETE + ~override/xpsgrant.baf~
+
+COPY ~xpsync/spell/xpsgrazz.baf~ ~override~
+REPLACE ~600401~ @600401
+COMPILE ~override/xpsgrazz.baf~
+DELETE + ~override/xpsgrazz.baf~
+
+COPY ~xpsync/spell/xpsmntr.spl~ ~override~
+  SAY NAME1 ~Training~
+  SAY NAME2 ~Training~
+  SAY UNIDENTIFIED_DESC ~Train with <CHARNAME>, matching their experience.~
+
+COPY ~xpsync/spell/xpsquirl.cre~ ~override~
+  SAY NAME1 ~Wise Squirrel~
+  SAY NAME2 ~Wise Squirrel~
+
+COPY ~xpsync/spell/xpsteam.spl~ ~override~
+  SAY NAME1 ~Train Party~
+  SAY NAME2 ~Train Party~
+  SAY UNIDENTIFIED_DESC ~Train your party. This brings them up, or down, to your standard.~
+
+COPY ~xpsync/spell/xpsquir2.cre~ ~override~
+  SAY NAME1 ~Elder Squirrel~
+  SAY NAME2 ~Elder Squirrel~   
+

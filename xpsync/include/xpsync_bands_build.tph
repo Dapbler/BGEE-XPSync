@@ -1,0 +1,69 @@
+COPY ~xpsync/bands/xpsgran0.baf~ ~override~
+COMPILE ~override/xpsgran0.baf~
+DELETE + ~override/xpsgran0.baf~
+COPY ~xpsync/bands/xpsgran3.baf~ ~override~
+COMPILE ~override/xpsgran3.baf~
+DELETE + ~override/xpsgran3.baf~
+COPY ~xpsync/bands/xpsgran4.baf~ ~override~
+COMPILE ~override/xpsgran4.baf~
+DELETE + ~override/xpsgran4.baf~
+COPY ~xpsync/bands/xpsgran5.baf~ ~override~
+COMPILE ~override/xpsgran5.baf~
+DELETE + ~override/xpsgran5.baf~
+COPY ~xpsync/bands/xpsgran6.baf~ ~override~
+COMPILE ~override/xpsgran6.baf~
+DELETE + ~override/xpsgran6.baf~
+COPY ~xpsync/bands/xpsgran7.baf~ ~override~
+COMPILE ~override/xpsgran7.baf~
+DELETE + ~override/xpsgran7.baf~
+COPY ~xpsync/bands/xpsgrap0.baf~ ~override~
+COMPILE ~override/xpsgrap0.baf~
+DELETE + ~override/xpsgrap0.baf~
+COPY ~xpsync/bands/xpsgrap3.baf~ ~override~
+COMPILE ~override/xpsgrap3.baf~
+DELETE + ~override/xpsgrap3.baf~
+COPY ~xpsync/bands/xpsgrap4.baf~ ~override~
+COMPILE ~override/xpsgrap4.baf~
+DELETE + ~override/xpsgrap4.baf~
+COPY ~xpsync/bands/xpsgrap5.baf~ ~override~
+COMPILE ~override/xpsgrap5.baf~
+DELETE + ~override/xpsgrap5.baf~
+COPY ~xpsync/bands/xpsgrap6.baf~ ~override~
+COMPILE ~override/xpsgrap6.baf~
+DELETE + ~override/xpsgrap6.baf~
+COPY ~xpsync/bands/xpsgrap7.baf~ ~override~
+COMPILE ~override/xpsgrap7.baf~
+DELETE + ~override/xpsgrap7.baf~
+COPY ~xpsync/bands/xps_mai3.baf~ ~override~
+COMPILE ~override/xps_mai3.baf~
+DELETE + ~override/xps_mai3.baf~
+COPY ~xpsync/bands/xps_mai4.baf~ ~override~
+COMPILE ~override/xps_mai4.baf~
+DELETE + ~override/xps_mai4.baf~
+COPY ~xpsync/bands/xps_mai5.baf~ ~override~
+COMPILE ~override/xps_mai5.baf~
+DELETE + ~override/xps_mai5.baf~
+COPY ~xpsync/bands/xps_mai6.baf~ ~override~
+COMPILE ~override/xps_mai6.baf~
+DELETE + ~override/xps_mai6.baf~
+COPY ~xpsync/bands/xps_mai7.baf~ ~override~
+COMPILE ~override/xps_mai7.baf~
+DELETE + ~override/xps_mai7.baf~
+COPY ~xpsync/bands/xps_wip0.baf~ ~override~
+COMPILE ~override/xps_wip0.baf~
+DELETE + ~override/xps_wip0.baf~
+COPY ~xpsync/bands/xps_wip3.baf~ ~override~
+COMPILE ~override/xps_wip3.baf~
+DELETE + ~override/xps_wip3.baf~
+COPY ~xpsync/bands/xps_wip4.baf~ ~override~
+COMPILE ~override/xps_wip4.baf~
+DELETE + ~override/xps_wip4.baf~
+COPY ~xpsync/bands/xps_wip5.baf~ ~override~
+COMPILE ~override/xps_wip5.baf~
+DELETE + ~override/xps_wip5.baf~
+COPY ~xpsync/bands/xps_wip6.baf~ ~override~
+COMPILE ~override/xps_wip6.baf~
+DELETE + ~override/xps_wip6.baf~
+COPY ~xpsync/bands/xps_wip7.baf~ ~override~
+COMPILE ~override/xps_wip7.baf~
+DELETE + ~override/xps_wip7.baf~

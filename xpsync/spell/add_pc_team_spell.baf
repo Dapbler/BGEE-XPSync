@@ -1,0 +1,13 @@
+
+// Add the Train Team ability to the PC
+// Added to the start of global scripts
+IF
+    Global("XPSYNC_Ability","GLOBAL",0)
+    !HaveSpellRES("xpsteam")  // Train team
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+    RESPONSE #100
+        SetGlobal("XPSYNC_Ability","GLOBAL",1)
+        ActionOverride(Player1,AddSpecialAbility("xpsteam"))  // Add Train Team
+        Continue()
+END

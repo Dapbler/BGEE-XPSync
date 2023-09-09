@@ -1,0 +1,54 @@
+// Sync/Match - If the PC is selected then sync the whole party!
+IF
+	Hotkey(S)
+	InPartySlot(Myself,0) // The PC
+THEN
+	RESPONSE #100
+		DisplayString(Myself,530003) // Display syncing message - Matching Party experience to <CHARNAME>
+		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1) // Show train animation
+		SmallWait(1) // Wait an AI cycles to be sure the var has stuck
+		// Set all NPCs to the sync AI script (via Wise Squirrel)
+		ActionOverride(Player2,ReallyForceSpellRES("XPSMNTR",Myself))
+		SmallWait(1)
+		ActionOverride(Player3,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player4,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player5,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player6,ReallyForceSpellRES("XPSMNTR",Myself))
+END
+
+// Sync/Match - only the selected NPC
+IF
+	Hotkey(S)
+	!InPartySlot(Myself,0)
+THEN
+	RESPONSE #100
+		// ChangeAIScript("xps_ctrl",OVERRIDE)
+		DisplayString(Myself,530000) // Display syncing message
+		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+		ReallyForceSpellRES("XPSMNTR",Myself)
+		Wait(1)
+END
+
+
+// Training animation control
+IF
+	Global("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",1)
+	Hotkey(D)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",0)
+		DisplayString(Myself,520100) // XP Training animation: ON
+		SetGlobal("XPSYNC_ANIMATIONS_FADED","GLOBAL",0)
+		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",0)
+END
+
+IF
+	Hotkey(D)
+	Global("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",1)
+		DisplayString(Myself,520101) // XP Training animation: OFF
+		SetGlobal("XPSYNC_ANIMATIONS_FADED","GLOBAL",0)
+		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",0)
+END

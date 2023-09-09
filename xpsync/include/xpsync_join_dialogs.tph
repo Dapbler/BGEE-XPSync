@@ -1,0 +1,68 @@
+SILENT
+
+// Based on code from Level 1 NPCs (possibly circa 2014) that's
+// doing the same thing.
+
+// L1NPCs had manually curated lists of files to patch - which is
+// potentially safer. This code patches anything that has JoinParty()
+// so may be more mod friendly but also potentially dangerous...
+// More importantly I don't need to curate a list of files to patch.
+
+MKDIR ~xpsync/tmpdlg~
+OUTER_SET DKI = 0 // Count of modified dialogues
+OUTER_SET DRI = 0 // Count of unmodified dialogues
+OUTER_SET DI = 0 // Count of all dialogues
+// Start with extracting every dialogue in the game to our working folder
+COPY_EXISTING_REGEXP + ~.*.dlg~ ~xpsync/tmpdlg~
+  DECOMPILE_DLG_TO_D
+    // Then decompile them and find those with JoinParty
+    COUNT_REGEXP_INSTANCES ~JoinParty()~ "cri"
+    COUNT_REGEXP_INSTANCES ~JoinPartyOverride()~ "cri2"
+    COUNT_REGEXP_INSTANCES ~xpsmntr~ "cri3"
+    DI += 1
+    PATCH_IF ("cri3" > 0) THEN
+    BEGIN
+      PATCH_WARN ~Dialogue file %SOURCE_FILE% already references the XPSync spell!~
+    END
+    PATCH_IF ((("cri" > 0) OR ("cri2" > 0)) AND ("cri3" = 0)) THEN
+    BEGIN
+      // For dialogues with JoinParty and pass our
+      // safety check store the file then patch
+      DKI += 1
+      SPRINT $DKL("%DKI%") "%SOURCE_FILE%" // Dialog Keep List
+      // For JoinParty acting on Myself we look for JP() NOT followed by 
+      // a bracket
+      REPLACE_TEXTUALLY ~\bJoinParty()$~ ~ReallyForceSpellRES("xpsmntr",Myself)
+JoinParty()
+~
+      // Using XPModSpell as a placeholder for the quoted spell name so I can use it
+      // inside quoted strings.
+      REPLACE_TEXTUALLY "\bJoinParty()~" "ReallyForceSpellRES(XPModSpell,Myself)
+JoinParty()~"
+
+      // Now for the Action Override version
+      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinParty())~ ~ActionOverride(\1,ReallyForceSpellRES("xpsmntr",Myself))
+ActionOverride(\1,JoinParty())~
+      // And JoinPartyOverride() - infrequently in AO calls for new BGEE NPCs
+      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinPartyOverride())~ ~ActionOverride(\1,ReallyForceSpellRES("xpsmntr",Myself))
+ActionOverride(\1,JoinPartyOverride())~
+      // Replace the placeholders with final values
+      REPLACE_TEXTUALLY ~XPModSpell~ ~"xpsmntr"~
+    END ELSE
+    BEGIN
+      // Make a note of temp files we didn't patch in $DRL for cleanup
+      // aka Dialog Remove List
+      DRI += 1
+      SPRINT $DRL("%DRI%") "%SOURCE_FILE%"
+    END
+  COMPILE_D_TO_DLG
+// Done patching. Move the modified dialogs to override
+ACTION_PHP_EACH DKL AS IDX => F BEGIN
+  MOVE ~xpsync/tmpdlg/%F%~ ~override/%F%~
+END
+PRINT ~Patched %DKI% / %DI% dialogue files.~
+// Throw away the unpatched temp files (the originals are still
+// either in override or the original BIFs )
+ACTION_PHP_EACH DRL AS IDX => F BEGIN
+  //DELETE + ~xpsync/tmpdlg/%F%~
+END

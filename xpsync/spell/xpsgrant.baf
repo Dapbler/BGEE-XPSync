@@ -1,0 +1,136 @@
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastSummonerOf(Myself),600101)
+		Continue()
+END
+
+IF
+    // If the faded var is set the screen may be black
+    // Unfade regardless of if we have animations enabled
+	Global("XPSYNC_ANIMATIONS_FADED","GLOBAL",1)
+THEN
+    RESPONSE #100
+		// Add a token training animation
+		FadeFromColor([20.0],0)
+		SetGlobal("XPSYNC_ANIMATIONS_FADED","GLOBAL",0)
+        SetGlobal("XPSYNC_ANIMATIONS_MOVING","GLOBAL",0)
+        SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",0)
+		Continue()
+END
+
+IF
+    GlobalGT("XPSYNC_GRANT","LOCALS",-100)
+    GlobalLT("XPSYNC_GRANT","LOCALS",100)
+THEN
+    RESPONSE #100
+        // Don't sweat the small stuff
+        DestroySelf()
+        AddXpObject(LastSummonerOf(Myself),0)
+
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-100000000)
+THEN
+    RESPONSE #100
+        // Outside our range, bug likely
+        DestroySelf()
+        AddXpObject(LastSummonerOf(Myself),-1)
+
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-10000000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran7",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-1000000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran6",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-100000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran5",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-10000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran4",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-1000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran3",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",-100)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgran0",OVERRIDE)
+END
+
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",1000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap0",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",10000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap3",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",100000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap4",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",1000000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap5",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",10000000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap6",OVERRIDE)
+END
+
+IF
+    GlobalLT("XPSYNC_GRANT","LOCALS",100000000)
+THEN
+    RESPONSE #100
+        ChangeAIScript("xpsgrap7",OVERRIDE)
+END
+
+IF
+    True()
+THEN
+    RESPONSE #100
+        // Use a grant of 1 as a token weirdness indicator
+        AddXpObject(LastSummonerOf(Myself),1)
+        DestroySelf()
+END

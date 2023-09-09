@@ -1,0 +1,150 @@
+//    XP Sync - mod for BG EE (and hopefully BG2 EE when I play it)
+//    Copyright (C) 2014-2023 Robert Thiem
+//
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+// IE Script - Set NPCs to have closer XP to the PC
+
+// Limitations - 
+// 1) It's not very consistent as it works on approximation bands of XP.
+//	Usually NPC/PC match within a few percent, usually slightly lower.
+// 2) Dual class calculations only handle the standard dual class combinations
+//	Characters can be manually tagged as a particular original class
+//      (Dual class versions)
+// 3) The script can't determine the original class of a dual classed character 
+//	is until after the original class re-activates.
+//	For the PC it guesses Cleric (a middle ground)
+//	For the NPC we use Thief (most generous, and 2/3 of stock dualed NPCs were Thief.
+//	If the character joined when single class (or, for the PC, had a party member join
+//	while single class) the script should make a note of the original class
+//	for later use.
+// 4) It only handles XP up to 250,000,000, because that seems like enough
+
+// State variables used in the script are -
+
+// TO BE DETERMINED - Scripts are being broken up into chunks so it should be clearer
+// which state it's in by the script running
+
+// XPSYNC_PC_DUAL* (GLOBAL) and XPSYNC_NPC_DUAL* (LOCALS) are variables for PC and NPC
+// Dual Class calculations
+// Reserve the PD and ND prefixes for dual class only, to make replacement of in the
+// almost identical blocks easier
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_DEBUG","GLOBAL",0)
+		Continue()
+END
+
+IF
+	False()
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_DEBUG","GLOBAL",1)
+		DisplayString(Myself,540001)
+		Continue()
+END
+
+// ====================================================
+// Check we're not being run by a party member
+// ====================================================
+// If Myself is in the party (this version with DestroySelf() should not be run
+// by a party member) then try to remove the AI and quit out.
+// As a fallback go into a non-busy loop
+
+// Note that the dialog trigger runs before the JoinParty() as the other
+// order didn't seem to work, so this catch may be unreliable.
+
+IF
+	OR(6)
+		InPartySlot(Myself,0)
+		InPartySlot(Myself,1)
+		InPartySlot(Myself,2)
+		InPartySlot(Myself,3)
+		InPartySlot(Myself,4)
+		InPartySlot(Myself,5)
+THEN
+	RESPONSE #100
+		Wait(10)
+		ChangeAIScript("",OVERRIDE)
+END
+
+// ===========================================================
+// Quit script if subject is the PC
+// ===========================================================
+
+// Check for the subject being the PC!
+// Wiping Player1 XP would be bad. This is a sanity check, it should never happen
+// but it's so dangerous I have to check for it :)
+
+IF
+	InPartySlot(LastSummonerOf(Myself),0)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+// ===========================================================
+// Quit script if beyond 100000000 experience
+// ===========================================================
+
+// If either NPC and PC XP is larger than our maximum test range END
+
+IF
+	OR(2)
+		CheckStatGT(Player1,100000000,XP)
+		CheckStatGT(LastSummonerOf(Myself),100000000,XP)
+THEN
+	RESPONSE #100
+        AddXpObject(LastSummonerOf(Myself),0) // Just to indicate completion
+		DestroySelf()
+END
+
+// Show a training montage! (animation...) if not toggled off with the AI script
+IF
+    Global("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",0)
+	Global("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+THEN
+    RESPONSE #100
+		// Add a token training animation
+		ActionOverride(LastSummonerOf(Myself),Swing())
+		Continue()
+END
+
+// Show a training montage! (animation...) if not toggled off with the AI script
+IF
+    Global("XPSYNC_ANIMATIONS_DISABLED","GLOBAL",0)
+	Global("XPSYNC_ANIMATIONS_MOVING","GLOBAL",0)
+	Global("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+THEN
+    RESPONSE #100
+		// Add a token training animation
+		MoveViewObject(LastSummonerOf(Myself),INSTANT)
+		SetGlobal("XPSYNC_ANIMATIONS_MOVING","GLOBAL",1)
+		Continue()
+END
+
+// Start the XP tallying.
+// xps_main is the main character XP add
+IF
+    True()
+THEN
+    RESPONSE #100
+        ChangeAIScript("xps_main",OVERRIDE)
+END
+
+
+

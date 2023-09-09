@@ -1,0 +1,106 @@
+// =================================================
+//
+// XPSync NPC dual class handling
+//
+// =================================================
+//
+// Much simpler due to new triggers in BG(2)EE
+//
+// Check for Original Class and if found branch to an XP granter that uses
+// the new ClassLevel() triggers
+
+// This is the final stage so reset the controller script state 
+
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastSummonerOf(Myself),540201)
+		Continue()
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),MAGE)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nmag",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),FIGHTER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nfig",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),PALADIN)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_npal",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),RANGER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nran",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),CLERIC)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_ncle",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),DRUID)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_ndru",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),THIEF)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nthi",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),BARD)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nbar",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),SORCERER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nsor",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),MONK)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nmon",OVERRIDE)
+END
+
+IF
+	OriginalClass(LastSummonerOf(Myself),SHAMAN)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nsha",OVERRIDE)
+END
+
+// No NPC dual class hits, so we move onto granting
+IF 
+    True()
+THEN
+    RESPONSE #100
+        ChangeAIScript("xps_wipe",OVERRIDE)
+END
+

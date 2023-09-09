@@ -1,0 +1,69 @@
+///////////////////////////////////////////////////////
+// Installation menu
+///////////////////////////////////////////////////////
+@100000 = ~XP Syncing scripts~
+@100010 = ~XPSync Train Party power (Core component)~
+@100020 = ~XPSync on joining the party (Experimental)~
+@100021 = ~The XYSync joining scripts require the core Training power~
+///////////////////////////////////////////////////////
+// Installation error messages
+///////////////////////////////////////////////////////
+@200000 = ~Level1NPCs mod is required.~
+
+///////////////////////////////////////////////////////
+// Configurable AI script description
+///////////////////////////////////////////////////////
+@500000 = ~XPSync Training: ~
+@500001 = ~Manually start experience matching with PC.
+ Hotkey S: Sync XP. 
+ If done by an NPC it will sync that NPC.
+ If done by the PC it will sync *all* party members.
+ Hotkey D: Toggle training animation.
+ ~
+///////////////////////////////////////////////////////
+// In game feedback messages
+///////////////////////////////////////////////////////
+// Dual class status 
+@510000 = ~\[ Flag set: Not dual classed \]~
+@510001 = ~\[ Flag set: Dual classed (original class inactive) \]~
+@510002 = ~\[ Flag set: Dual classed (original class reactivated) \]~
+// Original class history
+@520000 = ~\[ Original class history cleared \]~
+@520001 = ~\[ Original class history set: Cleric \]~
+@520002 = ~\[ Original class history set: Druid \]~
+@520003 = ~\[ Original class history set: Fighter \]~
+@520004 = ~\[ Original class history set: Mage \]~
+@520005 = ~\[ Original class history set: Ranger \]~
+@520006 = ~\[ Original class history set: Thief \]~
+// Animation states
+@520100 = ~\[ XP Training animation: ON \]~
+@520101 = ~\[ XP Training animation: OFF \]~
+// Syncing notices
+@530000 = ~\[ Matching experience to <CHARNAME> \]~ // Used in xpconfig.baf
+@530001 = ~\[ Matching experience to <CHARNAME> (requires Party AI enabled) \]~ // Used in fjxpmooc.baf
+@530002 = ~\[ Experience matching complete \]~ // Used in l1xpsync.baf
+@530003 = ~\[ Matching Party experience to <CHARNAME> \]~ // Used in xpconfig.baf
+
+///////////////////////////////////////////////////////
+// In game debugging messages
+///////////////////////////////////////////////////////
+@540001 = ~\[ Starting Creature AI \]~
+@540011 = ~\[ Starting PC XP addition \]~	
+@540021 = ~\[ Starting NPC XP subtraction \]~
+
+
+@540101 = ~\[ Starting PC Dual addition \]~
+@540102 = ~\[ xps_pmag \]~
+@540103 = ~\[ xps_pfig \]~
+@540104 = ~\[ xps_pthe \]~	
+
+@540201 = ~\[ Starting NPC Dual subtraction \]~
+@540202 = ~\[ xps_nmag \]~
+@540203 = ~\[ xps_nfig \]~
+@540204 = ~\[ xps_nthe \]~
+
+@600101 = ~\[ Starting Grant \]~
+@600201 = ~\[ Starting Grant subtraction \]~
+@600301 = ~\[ Starting Grant addition \]~
+@600401 = ~\[ Starting Grant - Fallback zeroing \]~
+    

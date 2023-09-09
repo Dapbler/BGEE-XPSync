@@ -1,0 +1,103 @@
+// =================================================
+//
+// XPSync PC dual class handling
+//
+// =================================================
+//
+// Much simpler due to new triggers in BG(2)EE
+//
+// Check for Original Class and if found branch to an XP granter that uses
+// the new ClassLevel() triggers
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastSummonerOf(Myself),540101)
+		Continue()
+END
+
+IF
+	OriginalClass(Player1,MAGE)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pmag",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,FIGHTER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pfig",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,PALADIN)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_ppal",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,RANGER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pran",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,CLERIC)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pcle",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,DRUID)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pdru",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,THIEF)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pthi",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,BARD)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pbar",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,SORCERER)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_psor",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,MONK)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pmon",OVERRIDE)
+END
+
+IF
+	OriginalClass(Player1,SHAMAN)
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_psha",OVERRIDE)
+END
+
+// No PC dual class hits, move onto 
+IF 
+    True()
+THEN
+    RESPONSE #100
+        ChangeAIScript("xps_nd",OVERRIDE)
+END
+

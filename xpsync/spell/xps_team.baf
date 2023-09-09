@@ -1,0 +1,17 @@
+// Run by a creature to start party XP sync
+IF
+	True()
+THEN
+	RESPONSE #100
+		//DisplayString(Myself,530003) // Display syncing message - Matching Party experience to <CHARNAME>
+		//Wait(1)
+		// Set all NPCs to the sync AI script (via Wise Squirrel)
+		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+		ActionOverride(Player2,ReallyForceSpellRES("XPSMNTR",Myself))
+		SmallWait(2) // Let the first be a couple of AI cycles ahead
+		ActionOverride(Player3,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player4,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player5,ReallyForceSpellRES("XPSMNTR",Myself))
+		ActionOverride(Player6,ReallyForceSpellRES("XPSMNTR",Myself))
+        DestroySelf()
+END

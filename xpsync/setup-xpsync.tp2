@@ -1,0 +1,71 @@
+////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\
+//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\
+//                                                                    \\
+//      XP Sync                                                       \\
+//                                                                    \\
+//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\//////\\\\\\
+////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\
+
+BACKUP ~xpsync/backup~
+AUTHOR ~Grozzle @ http forums.gibberlings3.net~
+
+// TP2 Flag(s)
+README ~xpsync/readme-xpsync_%LANGUAGE%.txt~ ~xpsync/readme-xpsync.txt~ // Look for language specific version first (I hope)
+VERSION ~v0.5.0~
+
+// Language list
+LANGUAGE
+  ~English (it tastes like tea and crumpets)~
+  ~english~
+  ~xpsync/languages/english/setup.tra~
+
+////////////////////////////////////////////////////////////
+// Component list
+////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////
+// Component : Dual Class XP matching script
+////////////////////////////////////////////////////////////
+
+BEGIN @100010 // XPSync Train Party power (Core component)
+//SUBCOMPONENT @100000 // Level 1 NPCs XP matching script replacement
+DESIGNATED 1
+
+SILENT
+
+// Set vars used by the build INCLUDE
+//OUTER_TEXT_SPRINT XPSYNC_BAF_PATH ~xpsync/dualxp/*.baf~
+
+INCLUDE ~xpsync/include/xpsync_build.tph~
+
+// Test 2DA reading. It's working. NEVER touch this reference file.
+//INCLUDE ~xpsync/include/2da_reader.tph~
+
+// The bands build is created by our build file - I didn't have luck
+// getting them to install via glob so it's all ls and sed!
+INCLUDE ~xpsync/include/xpsync_bands_build.tph~
+
+// Extend global scripts to add Innate PC spell
+// Credit to argent77 (taken from cdtweaks)
+INCLUDE ~xpsync/include/a7_global_script_extender.tph~
+
+// Insert some global script code to grant the new innate ability
+LAUNCH_ACTION_FUNCTION A7_ADD_GLOBAL_SCRIPT
+  INT_VAR extend_top = 1
+  STR_VAR script_file = ~xpsync/spell/add_pc_team_spell.baf~
+END
+
+// Instead we have Component 2
+////////////////////////////////////////////////////////////
+// Component : Dual Class XP matching script
+////////////////////////////////////////////////////////////
+
+BEGIN @100020 // Dual Class XP matching script
+//SUBCOMPONENT @100000 // Level 1 NPCs XP matching script replacement
+DESIGNATED 2
+REQUIRE_COMPONENT setup-xpsync.tp2 1 @100021
+
+INCLUDE ~xpsync/include/xpsync_join_dialogs.tph~
+  
+
+
