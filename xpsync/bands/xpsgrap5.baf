@@ -1,0 +1,2007 @@
+
+// NPC XP 100000-101000 => 100000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",101100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),100000)
+		DestroySelf()
+END
+
+// NPC XP 101100-102100 => 102000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",102200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),102000)
+		DestroySelf()
+END
+
+// NPC XP 102200-103200 => 103000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",103300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),103000)
+		DestroySelf()
+END
+
+// NPC XP 103300-104300 => 104000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",104400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),104000)
+		DestroySelf()
+END
+
+// NPC XP 104400-105400 => 105000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",105500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),105000)
+		DestroySelf()
+END
+
+// NPC XP 105500-106600 => 106000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",106700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),106000)
+		DestroySelf()
+END
+
+// NPC XP 106700-107800 => 107000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",107900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),107000)
+		DestroySelf()
+END
+
+// NPC XP 107900-109000 => 108000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",109100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),108000)
+		DestroySelf()
+END
+
+// NPC XP 109100-110200 => 110000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",110300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),110000)
+		DestroySelf()
+END
+
+// NPC XP 110300-111400 => 111000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",111500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),111000)
+		DestroySelf()
+END
+
+// NPC XP 111500-112600 => 112000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",112700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),112000)
+		DestroySelf()
+END
+
+// NPC XP 112700-113800 => 113000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",113900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),113000)
+		DestroySelf()
+END
+
+// NPC XP 113900-115000 => 114000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",115100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),114000)
+		DestroySelf()
+END
+
+// NPC XP 115100-116300 => 116000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",116400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),116000)
+		DestroySelf()
+END
+
+// NPC XP 116400-117600 => 117000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",117700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),117000)
+		DestroySelf()
+END
+
+// NPC XP 117700-118900 => 118000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",119000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),118000)
+		DestroySelf()
+END
+
+// NPC XP 119000-120200 => 120000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",120300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),120000)
+		DestroySelf()
+END
+
+// NPC XP 120300-121500 => 121000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",121600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),121000)
+		DestroySelf()
+END
+
+// NPC XP 121600-122800 => 122000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",122900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),122000)
+		DestroySelf()
+END
+
+// NPC XP 122900-124100 => 124000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",124200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),124000)
+		DestroySelf()
+END
+
+// NPC XP 124200-125400 => 125000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",125500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),125000)
+		DestroySelf()
+END
+
+// NPC XP 125500-126800 => 126000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",126900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),126000)
+		DestroySelf()
+END
+
+// NPC XP 126900-128200 => 128000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",128300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),128000)
+		DestroySelf()
+END
+
+// NPC XP 128300-129600 => 129000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",129700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),129000)
+		DestroySelf()
+END
+
+// NPC XP 129700-131000 => 130000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",131100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),130000)
+		DestroySelf()
+END
+
+// NPC XP 131100-132400 => 132000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",132500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),132000)
+		DestroySelf()
+END
+
+// NPC XP 132500-133800 => 133000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",133900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),133000)
+		DestroySelf()
+END
+
+// NPC XP 133900-135200 => 135000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",135300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),135000)
+		DestroySelf()
+END
+
+// NPC XP 135300-136700 => 136000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",136800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),136000)
+		DestroySelf()
+END
+
+// NPC XP 136800-138200 => 137000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",138300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),137000)
+		DestroySelf()
+END
+
+// NPC XP 138300-139700 => 139000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",139800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),139000)
+		DestroySelf()
+END
+
+// NPC XP 139800-141200 => 140000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",141300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),140000)
+		DestroySelf()
+END
+
+// NPC XP 141300-142700 => 142000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",142800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),142000)
+		DestroySelf()
+END
+
+// NPC XP 142800-144200 => 144000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",144300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),144000)
+		DestroySelf()
+END
+
+// NPC XP 144300-145700 => 145000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",145800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),145000)
+		DestroySelf()
+END
+
+// NPC XP 145800-147300 => 147000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",147400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),147000)
+		DestroySelf()
+END
+
+// NPC XP 147400-148900 => 148000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",149000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),148000)
+		DestroySelf()
+END
+
+// NPC XP 149000-150500 => 150000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",150600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),150000)
+		DestroySelf()
+END
+
+// NPC XP 150600-152100 => 151000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",152200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),151000)
+		DestroySelf()
+END
+
+// NPC XP 152200-153700 => 153000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",153800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),153000)
+		DestroySelf()
+END
+
+// NPC XP 153800-155300 => 155000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",155400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),155000)
+		DestroySelf()
+END
+
+// NPC XP 155400-157000 => 156000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",157100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),156000)
+		DestroySelf()
+END
+
+// NPC XP 157100-158700 => 158000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",158800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),158000)
+		DestroySelf()
+END
+
+// NPC XP 158800-160400 => 160000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",160500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),160000)
+		DestroySelf()
+END
+
+// NPC XP 160500-162100 => 161000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",162200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),161000)
+		DestroySelf()
+END
+
+// NPC XP 162200-163800 => 163000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",163900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),163000)
+		DestroySelf()
+END
+
+// NPC XP 163900-165500 => 165000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",165600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),165000)
+		DestroySelf()
+END
+
+// NPC XP 165600-167300 => 166000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",167400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),166000)
+		DestroySelf()
+END
+
+// NPC XP 167400-169100 => 168000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",169200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),168000)
+		DestroySelf()
+END
+
+// NPC XP 169200-170900 => 170000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",171000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),170000)
+		DestroySelf()
+END
+
+// NPC XP 171000-172700 => 172000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",172800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),172000)
+		DestroySelf()
+END
+
+// NPC XP 172800-174500 => 174000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",174600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),174000)
+		DestroySelf()
+END
+
+// NPC XP 174600-176300 => 175000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",176400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),175000)
+		DestroySelf()
+END
+
+// NPC XP 176400-178200 => 177000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",178300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),177000)
+		DestroySelf()
+END
+
+// NPC XP 178300-180100 => 179000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",180200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),179000)
+		DestroySelf()
+END
+
+// NPC XP 180200-182000 => 181000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",182100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),181000)
+		DestroySelf()
+END
+
+// NPC XP 182100-183900 => 183000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",184000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),183000)
+		DestroySelf()
+END
+
+// NPC XP 184000-185800 => 185000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",185900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),185000)
+		DestroySelf()
+END
+
+// NPC XP 185900-187800 => 187000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",187900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),187000)
+		DestroySelf()
+END
+
+// NPC XP 187900-189800 => 189000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",189900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),189000)
+		DestroySelf()
+END
+
+// NPC XP 189900-191800 => 191000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",191900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),191000)
+		DestroySelf()
+END
+
+// NPC XP 191900-193800 => 193000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",193900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),193000)
+		DestroySelf()
+END
+
+// NPC XP 193900-195800 => 195000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",195900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),195000)
+		DestroySelf()
+END
+
+// NPC XP 195900-197900 => 197000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",198000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),197000)
+		DestroySelf()
+END
+
+// NPC XP 198000-200000 => 199000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",200100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),199000)
+		DestroySelf()
+END
+
+// NPC XP 200100-202100 => 201000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",202200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),201000)
+		DestroySelf()
+END
+
+// NPC XP 202200-204200 => 203000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",204300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),203000)
+		DestroySelf()
+END
+
+// NPC XP 204300-206300 => 205000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",206400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),205000)
+		DestroySelf()
+END
+
+// NPC XP 206400-208500 => 207000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",208600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),207000)
+		DestroySelf()
+END
+
+// NPC XP 208600-210700 => 210000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",210800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),210000)
+		DestroySelf()
+END
+
+// NPC XP 210800-212900 => 212000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",213000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),212000)
+		DestroySelf()
+END
+
+// NPC XP 213000-215100 => 214000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",215200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),214000)
+		DestroySelf()
+END
+
+// NPC XP 215200-217400 => 216000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",217500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),216000)
+		DestroySelf()
+END
+
+// NPC XP 217500-219700 => 219000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",219800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),219000)
+		DestroySelf()
+END
+
+// NPC XP 219800-222000 => 221000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",222100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),221000)
+		DestroySelf()
+END
+
+// NPC XP 222100-224300 => 223000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",224400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),223000)
+		DestroySelf()
+END
+
+// NPC XP 224400-226600 => 226000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",226700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),226000)
+		DestroySelf()
+END
+
+// NPC XP 226700-229000 => 228000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",229100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),228000)
+		DestroySelf()
+END
+
+// NPC XP 229100-231400 => 230000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",231500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),230000)
+		DestroySelf()
+END
+
+// NPC XP 231500-233800 => 233000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",233900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),233000)
+		DestroySelf()
+END
+
+// NPC XP 233900-236200 => 235000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",236300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),235000)
+		DestroySelf()
+END
+
+// NPC XP 236300-238700 => 237000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",238800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),237000)
+		DestroySelf()
+END
+
+// NPC XP 238800-241200 => 240000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",241300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),240000)
+		DestroySelf()
+END
+
+// NPC XP 241300-243700 => 243000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",243800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),243000)
+		DestroySelf()
+END
+
+// NPC XP 243800-246200 => 245000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",246300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),245000)
+		DestroySelf()
+END
+
+// NPC XP 246300-248800 => 248000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",248900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),248000)
+		DestroySelf()
+END
+
+// NPC XP 248900-251400 => 250000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",251500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),250000)
+		DestroySelf()
+END
+
+// NPC XP 251500-254000 => 253000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",254100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),253000)
+		DestroySelf()
+END
+
+// NPC XP 254100-256600 => 255000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",256700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),255000)
+		DestroySelf()
+END
+
+// NPC XP 256700-259300 => 258000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",259400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),258000)
+		DestroySelf()
+END
+
+// NPC XP 259400-262000 => 261000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",262100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),261000)
+		DestroySelf()
+END
+
+// NPC XP 262100-264700 => 263000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",264800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),263000)
+		DestroySelf()
+END
+
+// NPC XP 264800-267400 => 266000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",267500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),266000)
+		DestroySelf()
+END
+
+// NPC XP 267500-270200 => 269000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",270300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),269000)
+		DestroySelf()
+END
+
+// NPC XP 270300-273000 => 272000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",273100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),272000)
+		DestroySelf()
+END
+
+// NPC XP 273100-275800 => 274000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",275900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),274000)
+		DestroySelf()
+END
+
+// NPC XP 275900-278700 => 277000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",278800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),277000)
+		DestroySelf()
+END
+
+// NPC XP 278800-281600 => 280000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",281700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),280000)
+		DestroySelf()
+END
+
+// NPC XP 281700-284500 => 283000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",284600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),283000)
+		DestroySelf()
+END
+
+// NPC XP 284600-287400 => 286000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",287500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),286000)
+		DestroySelf()
+END
+
+// NPC XP 287500-290400 => 289000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",290500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),289000)
+		DestroySelf()
+END
+
+// NPC XP 290500-293400 => 292000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",293500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),292000)
+		DestroySelf()
+END
+
+// NPC XP 293500-296400 => 295000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",296500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),295000)
+		DestroySelf()
+END
+
+// NPC XP 296500-299500 => 298000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",299600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),298000)
+		DestroySelf()
+END
+
+// NPC XP 299600-302600 => 301000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",302700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),301000)
+		DestroySelf()
+END
+
+// NPC XP 302700-305700 => 304000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",305800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),304000)
+		DestroySelf()
+END
+
+// NPC XP 305800-308900 => 307000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",309000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),307000)
+		DestroySelf()
+END
+
+// NPC XP 309000-312100 => 311000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",312200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),311000)
+		DestroySelf()
+END
+
+// NPC XP 312200-315300 => 314000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",315400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),314000)
+		DestroySelf()
+END
+
+// NPC XP 315400-318600 => 317000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",318700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),317000)
+		DestroySelf()
+END
+
+// NPC XP 318700-321900 => 320000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",322000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),320000)
+		DestroySelf()
+END
+
+// NPC XP 322000-325200 => 324000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",325300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),324000)
+		DestroySelf()
+END
+
+// NPC XP 325300-328600 => 327000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",328700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),327000)
+		DestroySelf()
+END
+
+// NPC XP 328700-332000 => 330000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",332100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),330000)
+		DestroySelf()
+END
+
+// NPC XP 332100-335400 => 334000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",335500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),334000)
+		DestroySelf()
+END
+
+// NPC XP 335500-338900 => 337000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",339000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),337000)
+		DestroySelf()
+END
+
+// NPC XP 339000-342400 => 341000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",342500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),341000)
+		DestroySelf()
+END
+
+// NPC XP 342500-345900 => 344000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",346000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),344000)
+		DestroySelf()
+END
+
+// NPC XP 346000-349500 => 348000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",349600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),348000)
+		DestroySelf()
+END
+
+// NPC XP 349600-353100 => 351000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",353200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),351000)
+		DestroySelf()
+END
+
+// NPC XP 353200-356700 => 355000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",356800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),355000)
+		DestroySelf()
+END
+
+// NPC XP 356800-360400 => 359000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",360500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),359000)
+		DestroySelf()
+END
+
+// NPC XP 360500-364100 => 362000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",364200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),362000)
+		DestroySelf()
+END
+
+// NPC XP 364200-367800 => 366000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",367900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),366000)
+		DestroySelf()
+END
+
+// NPC XP 367900-371600 => 370000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",371700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),370000)
+		DestroySelf()
+END
+
+// NPC XP 371700-375400 => 374000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",375500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),374000)
+		DestroySelf()
+END
+
+// NPC XP 375500-379300 => 377000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",379400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),377000)
+		DestroySelf()
+END
+
+// NPC XP 379400-383200 => 381000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",383300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),381000)
+		DestroySelf()
+END
+
+// NPC XP 383300-387100 => 385000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",387200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),385000)
+		DestroySelf()
+END
+
+// NPC XP 387200-391100 => 389000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",391200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),389000)
+		DestroySelf()
+END
+
+// NPC XP 391200-395100 => 393000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",395200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),393000)
+		DestroySelf()
+END
+
+// NPC XP 395200-399200 => 397000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",399300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),397000)
+		DestroySelf()
+END
+
+// NPC XP 399300-403300 => 401000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",403400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),401000)
+		DestroySelf()
+END
+
+// NPC XP 403400-407400 => 405000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",407500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),405000)
+		DestroySelf()
+END
+
+// NPC XP 407500-411600 => 410000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",411700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),410000)
+		DestroySelf()
+END
+
+// NPC XP 411700-415800 => 414000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",415900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),414000)
+		DestroySelf()
+END
+
+// NPC XP 415900-420100 => 418000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",420200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),418000)
+		DestroySelf()
+END
+
+// NPC XP 420200-424400 => 422000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",424500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),422000)
+		DestroySelf()
+END
+
+// NPC XP 424500-428700 => 427000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",428800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),427000)
+		DestroySelf()
+END
+
+// NPC XP 428800-433100 => 431000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",433200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),431000)
+		DestroySelf()
+END
+
+// NPC XP 433200-437500 => 435000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",437600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),435000)
+		DestroySelf()
+END
+
+// NPC XP 437600-442000 => 440000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",442100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),440000)
+		DestroySelf()
+END
+
+// NPC XP 442100-446500 => 444000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",446600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),444000)
+		DestroySelf()
+END
+
+// NPC XP 446600-451100 => 449000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",451200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),449000)
+		DestroySelf()
+END
+
+// NPC XP 451200-455700 => 453000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",455800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),453000)
+		DestroySelf()
+END
+
+// NPC XP 455800-460400 => 458000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",460500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),458000)
+		DestroySelf()
+END
+
+// NPC XP 460500-465100 => 463000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",465200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),463000)
+		DestroySelf()
+END
+
+// NPC XP 465200-469900 => 468000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",470000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),468000)
+		DestroySelf()
+END
+
+// NPC XP 470000-474700 => 472000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",474800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),472000)
+		DestroySelf()
+END
+
+// NPC XP 474800-479500 => 477000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",479600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),477000)
+		DestroySelf()
+END
+
+// NPC XP 479600-484400 => 482000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",484500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),482000)
+		DestroySelf()
+END
+
+// NPC XP 484500-489300 => 487000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",489400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),487000)
+		DestroySelf()
+END
+
+// NPC XP 489400-494300 => 492000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",494400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),492000)
+		DestroySelf()
+END
+
+// NPC XP 494400-499300 => 497000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",499400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),497000)
+		DestroySelf()
+END
+
+// NPC XP 499400-504400 => 502000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",504500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),502000)
+		DestroySelf()
+END
+
+// NPC XP 504500-509500 => 507000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",509600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),507000)
+		DestroySelf()
+END
+
+// NPC XP 509600-514700 => 512000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",514800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),512000)
+		DestroySelf()
+END
+
+// NPC XP 514800-519900 => 517000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",520000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),517000)
+		DestroySelf()
+END
+
+// NPC XP 520000-525200 => 523000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",525300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),523000)
+		DestroySelf()
+END
+
+// NPC XP 525300-530600 => 528000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",530700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),528000)
+		DestroySelf()
+END
+
+// NPC XP 530700-536000 => 533000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",536100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),533000)
+		DestroySelf()
+END
+
+// NPC XP 536100-541500 => 539000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",541600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),539000)
+		DestroySelf()
+END
+
+// NPC XP 541600-547000 => 544000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",547100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),544000)
+		DestroySelf()
+END
+
+// NPC XP 547100-552600 => 550000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",552700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),550000)
+		DestroySelf()
+END
+
+// NPC XP 552700-558200 => 555000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",558300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),555000)
+		DestroySelf()
+END
+
+// NPC XP 558300-563900 => 561000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",564000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),561000)
+		DestroySelf()
+END
+
+// NPC XP 564000-569600 => 567000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",569700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),567000)
+		DestroySelf()
+END
+
+// NPC XP 569700-575400 => 573000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",575500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),573000)
+		DestroySelf()
+END
+
+// NPC XP 575500-581300 => 578000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",581400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),578000)
+		DestroySelf()
+END
+
+// NPC XP 581400-587200 => 584000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",587300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),584000)
+		DestroySelf()
+END
+
+// NPC XP 587300-593200 => 590000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",593300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),590000)
+		DestroySelf()
+END
+
+// NPC XP 593300-599200 => 596000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",599300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),596000)
+		DestroySelf()
+END
+
+// NPC XP 599300-605300 => 602000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",605400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),602000)
+		DestroySelf()
+END
+
+// NPC XP 605400-611500 => 608000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",611600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),608000)
+		DestroySelf()
+END
+
+// NPC XP 611600-617700 => 615000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",617800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),615000)
+		DestroySelf()
+END
+
+// NPC XP 617800-624000 => 621000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",624100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),621000)
+		DestroySelf()
+END
+
+// NPC XP 624100-630300 => 627000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",630400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),627000)
+		DestroySelf()
+END
+
+// NPC XP 630400-636700 => 634000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",636800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),634000)
+		DestroySelf()
+END
+
+// NPC XP 636800-643200 => 640000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",643300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),640000)
+		DestroySelf()
+END
+
+// NPC XP 643300-649700 => 647000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",649800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),647000)
+		DestroySelf()
+END
+
+// NPC XP 649800-656300 => 653000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",656400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),653000)
+		DestroySelf()
+END
+
+// NPC XP 656400-663000 => 660000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",663100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),660000)
+		DestroySelf()
+END
+
+// NPC XP 663100-669700 => 666000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",669800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),666000)
+		DestroySelf()
+END
+
+// NPC XP 669800-676500 => 673000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",676600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),673000)
+		DestroySelf()
+END
+
+// NPC XP 676600-683400 => 680000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",683500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),680000)
+		DestroySelf()
+END
+
+// NPC XP 683500-690300 => 687000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",690400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),687000)
+		DestroySelf()
+END
+
+// NPC XP 690400-697300 => 694000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",697400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),694000)
+		DestroySelf()
+END
+
+// NPC XP 697400-704400 => 701000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",704500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),701000)
+		DestroySelf()
+END
+
+// NPC XP 704500-711500 => 708000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",711600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),708000)
+		DestroySelf()
+END
+
+// NPC XP 711600-718700 => 715000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",718800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),715000)
+		DestroySelf()
+END
+
+// NPC XP 718800-726000 => 722000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",726100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),722000)
+		DestroySelf()
+END
+
+// NPC XP 726100-733400 => 730000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",733500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),730000)
+		DestroySelf()
+END
+
+// NPC XP 733500-740800 => 737000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",740900)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),737000)
+		DestroySelf()
+END
+
+// NPC XP 740900-748300 => 745000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",748400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),745000)
+		DestroySelf()
+END
+
+// NPC XP 748400-755900 => 752000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",756000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),752000)
+		DestroySelf()
+END
+
+// NPC XP 756000-763600 => 760000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",763700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),760000)
+		DestroySelf()
+END
+
+// NPC XP 763700-771300 => 768000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",771400)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),768000)
+		DestroySelf()
+END
+
+// NPC XP 771400-779100 => 775000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",779200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),775000)
+		DestroySelf()
+END
+
+// NPC XP 779200-787000 => 783000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",787100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),783000)
+		DestroySelf()
+END
+
+// NPC XP 787100-795000 => 791000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",795100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),791000)
+		DestroySelf()
+END
+
+// NPC XP 795100-803100 => 799000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",803200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),799000)
+		DestroySelf()
+END
+
+// NPC XP 803200-811200 => 807000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",811300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),807000)
+		DestroySelf()
+END
+
+// NPC XP 811300-819400 => 815000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",819500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),815000)
+		DestroySelf()
+END
+
+// NPC XP 819500-827700 => 824000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",827800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),824000)
+		DestroySelf()
+END
+
+// NPC XP 827800-836100 => 832000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",836200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),832000)
+		DestroySelf()
+END
+
+// NPC XP 836200-844600 => 840000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",844700)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),840000)
+		DestroySelf()
+END
+
+// NPC XP 844700-853100 => 849000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",853200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),849000)
+		DestroySelf()
+END
+
+// NPC XP 853200-861700 => 857000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",861800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),857000)
+		DestroySelf()
+END
+
+// NPC XP 861800-870400 => 866000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",870500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),866000)
+		DestroySelf()
+END
+
+// NPC XP 870500-879200 => 875000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",879300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),875000)
+		DestroySelf()
+END
+
+// NPC XP 879300-888100 => 884000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",888200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),884000)
+		DestroySelf()
+END
+
+// NPC XP 888200-897100 => 893000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",897200)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),893000)
+		DestroySelf()
+END
+
+// NPC XP 897200-906200 => 902000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",906300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),902000)
+		DestroySelf()
+END
+
+// NPC XP 906300-915400 => 911000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",915500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),911000)
+		DestroySelf()
+END
+
+// NPC XP 915500-924700 => 920000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",924800)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),920000)
+		DestroySelf()
+END
+
+// NPC XP 924800-934000 => 929000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",934100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),929000)
+		DestroySelf()
+END
+
+// NPC XP 934100-943400 => 939000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",943500)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),939000)
+		DestroySelf()
+END
+
+// NPC XP 943500-952900 => 948000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",953000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),948000)
+		DestroySelf()
+END
+
+// NPC XP 953000-962500 => 958000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",962600)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),958000)
+		DestroySelf()
+END
+
+// NPC XP 962600-972200 => 967000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",972300)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),967000)
+		DestroySelf()
+END
+
+// NPC XP 972300-982000 => 977000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",982100)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),977000)
+		DestroySelf()
+END
+
+// NPC XP 982100-991900 => 987000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",992000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),987000)
+		DestroySelf()
+END
+
+// NPC XP 992000-1001900 => 997000
+IF
+	GlobalLT("XPSYNC_GRANT","LOCALS",1002000)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),997000)
+		DestroySelf()
+END

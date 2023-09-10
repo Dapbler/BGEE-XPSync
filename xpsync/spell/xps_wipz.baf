@@ -1,0 +1,173 @@
+// We're here because the NPC has XP above our range but the
+// PC has less than 100M
+
+// Progressively wipe XP down hard
+// We don't know how many wipes above 128M will be done
+// so no step cap on this one
+
+IF
+	Global("XPSYNC_HIGHXP_WIPE","LOCALS",0)
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_HIGHXP_WIPE","LOCALS",1)
+		DisplayString(LastSummonerOf(Myself),540022)
+		Continue()
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),127999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-128000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),63999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-64000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),31999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-32000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),15999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-16000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),7999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-8000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),3999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-4000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),1999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-2000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),999999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-1000000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),499999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-500000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),249999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-250000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),124999,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-125000)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),62499,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-62500)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),31199,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-31200)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),15599,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-15600)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),7799,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-7800)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),3899,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-3900)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),1949,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-1950)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),974,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-975)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),487,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-488)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),243,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-244)
+END
+
+IF
+	CheckStatGT(LastSummonerOf(Myself),121,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-122)
+END
+
+// We've hit the end without hitting the wipe cap
+// Reset
+IF
+	True()
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_HIGHXP_WIPE","LOCALS",1) // Flag to skip wipe later
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END

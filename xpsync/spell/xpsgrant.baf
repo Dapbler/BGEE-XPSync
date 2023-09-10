@@ -32,6 +32,19 @@ THEN
 END
 
 IF
+    // If grant is less than zero and we've already done 
+    // the hard wipe for very high NPC XP then we're done
+    GlobalLT("XPSYNC_GRANT","LOCALS",0)
+    Global("XPSYNC_HIGHXP_WIPE","LOCALS",1)
+THEN
+    RESPONSE #100
+        // Don't sweat the small stuff
+        DestroySelf()
+        AddXpObject(LastSummonerOf(Myself),0)
+
+END
+
+IF
     GlobalLT("XPSYNC_GRANT","LOCALS",-100000000)
 THEN
     RESPONSE #100
@@ -130,7 +143,9 @@ IF
     True()
 THEN
     RESPONSE #100
-        // Use a grant of 1 as a token weirdness indicator
-        AddXpObject(LastSummonerOf(Myself),1)
+        // Grant 100M
+        // Could happen if PC XP + dual class bump the grant
+        // over our regular test range
+        AddXpObject(LastSummonerOf(Myself),100000000)
         DestroySelf()
 END

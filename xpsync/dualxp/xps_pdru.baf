@@ -1,0 +1,322 @@
+// Player1 is a dual class, with original class DRUID
+// Go through levels and adjust XP
+IF
+	ClassLevel(Player1,PRIEST,2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_2_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_3_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_4_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_5_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_6_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,7)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_7_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,8)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_8_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,9)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_9_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_10_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,11)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_11_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,12)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_12_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,13)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_13_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,14)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_14_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,15)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_15_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,16)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_16_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,17)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_17_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,18)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_18_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,19)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_19_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,20)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_20_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,21)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_21_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,22)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_22_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,23)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_23_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,24)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_24_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,25)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_25_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,26)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_26_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,27)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_27_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,28)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_28_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,29)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_29_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,30)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_30_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,31)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_31_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,32)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_32_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,33)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_33_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,34)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_34_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,35)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_35_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,36)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_36_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,37)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_37_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,38)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_38_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,39)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_39_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+IF
+	ClassLevel(Player1,PRIEST,40)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",%DRUID_40_XP%)
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+
+ // No matches so weirdness or have a dual class greater than our range
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_nd",OVERRIDE)
+END
+

@@ -1,0 +1,322 @@
+// LastSummonerOf(Myself) is a dual class, with original class MONK
+// Go through levels and adjust XP
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_2_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_3_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_4_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_5_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_6_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,7)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_7_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,8)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_8_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,9)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_9_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_10_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,11)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_11_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,12)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_12_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,13)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_13_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,14)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_14_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,15)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_15_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,16)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_16_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,17)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_17_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,18)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_18_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,19)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_19_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,20)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_20_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,21)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_21_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,22)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_22_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,23)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_23_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,24)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_24_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,25)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_25_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,26)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_26_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,27)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_27_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,28)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_28_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,29)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_29_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,30)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_30_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,31)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_31_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,32)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_32_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,33)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_33_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,34)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_34_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,35)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_35_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,36)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_36_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,37)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_37_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,38)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_38_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,39)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_39_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),PRIEST,40)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%MONK_40_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+ // No matches so weirdness or have a dual class greater than our range
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+

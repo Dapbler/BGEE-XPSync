@@ -1,0 +1,322 @@
+// LastSummonerOf(Myself) is a dual class, with original class THIEF
+// Go through levels and adjust XP
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_2_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_3_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_4_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_5_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_6_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,7)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_7_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,8)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_8_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,9)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_9_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_10_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,11)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_11_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,12)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_12_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,13)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_13_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,14)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_14_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,15)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_15_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,16)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_16_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,17)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_17_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,18)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_18_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,19)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_19_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,20)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_20_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,21)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_21_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,22)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_22_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,23)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_23_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,24)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_24_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,25)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_25_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,26)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_26_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,27)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_27_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,28)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_28_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,29)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_29_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,30)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_30_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,31)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_31_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,32)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_32_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,33)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_33_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,34)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_34_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,35)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_35_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,36)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_36_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,37)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_37_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,38)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_38_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,39)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_39_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+IF
+	ClassLevel(LastSummonerOf(Myself),ROGUE,40)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-%THIEF_40_XP%)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+
+ // No matches so weirdness or have a dual class greater than our range
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_wipe",OVERRIDE)
+END
+

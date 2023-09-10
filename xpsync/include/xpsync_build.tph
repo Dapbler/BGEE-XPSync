@@ -20,6 +20,11 @@ REPLACE ~540021~ @540021
 COMPILE ~override/xps_wipe.baf~
 DELETE + ~override/xps_wipe.baf~
 
+COPY ~xpsync/spell/xps_wipz.baf~ ~override~
+REPLACE ~540022~ @540022
+COMPILE ~override/xps_wipz.baf~
+DELETE + ~override/xps_wipz.baf~
+
 COPY ~xpsync/spell/xps_pd.baf~ ~override~
 REPLACE ~540101~ @540101
 COMPILE ~override/xps_pd.baf~

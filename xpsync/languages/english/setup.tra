@@ -50,6 +50,7 @@
 @540001 = ~\[ Starting Creature AI \]~
 @540011 = ~\[ Starting PC XP addition \]~	
 @540021 = ~\[ Starting NPC XP subtraction \]~
+@540022 = ~\[ Starting NPC HIGH XP wipe \]~
 
 
 @540101 = ~\[ Starting PC Dual addition \]~

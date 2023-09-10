@@ -62,9 +62,11 @@ THEN
 END
 
 // We've hit the end - NPC XP is beyond our test range (really!?!)
+// Wipe it down (noisy) and then move onto the grant of whatever we've
+// tallied so far
 IF
 	True()
 THEN
 	RESPONSE #100
-		ChangeAIScript("xpsgrant",OVERRIDE)
+		ChangeAIScript("xps_wipz",OVERRIDE)
 END

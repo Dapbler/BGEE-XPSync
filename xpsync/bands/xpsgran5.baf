@@ -1,0 +1,2419 @@
+
+// NPC XP -100000--101000 => -100000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-101100)
+	CheckStatGT(LastSummonerOf(Myself),100000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-100000)
+		DestroySelf()
+END
+
+// NPC XP -100900--101900 => -101000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-102000)
+	CheckStatGT(LastSummonerOf(Myself),101000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-101000)
+		DestroySelf()
+END
+
+// NPC XP -101800--102800 => -102000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-102900)
+	CheckStatGT(LastSummonerOf(Myself),102000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-102000)
+		DestroySelf()
+END
+
+// NPC XP -102700--103700 => -103000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-103800)
+	CheckStatGT(LastSummonerOf(Myself),103000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-103000)
+		DestroySelf()
+END
+
+// NPC XP -103600--104600 => -104000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-104700)
+	CheckStatGT(LastSummonerOf(Myself),104000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-104000)
+		DestroySelf()
+END
+
+// NPC XP -104500--105500 => -105000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-105600)
+	CheckStatGT(LastSummonerOf(Myself),105000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-105000)
+		DestroySelf()
+END
+
+// NPC XP -105400--106500 => -106000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-106600)
+	CheckStatGT(LastSummonerOf(Myself),106000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-106000)
+		DestroySelf()
+END
+
+// NPC XP -106400--107500 => -107000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-107600)
+	CheckStatGT(LastSummonerOf(Myself),107000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-107000)
+		DestroySelf()
+END
+
+// NPC XP -107400--108500 => -108000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-108600)
+	CheckStatGT(LastSummonerOf(Myself),108000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-108000)
+		DestroySelf()
+END
+
+// NPC XP -108400--109500 => -109000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-109600)
+	CheckStatGT(LastSummonerOf(Myself),109000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-109000)
+		DestroySelf()
+END
+
+// NPC XP -109400--110500 => -110000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-110600)
+	CheckStatGT(LastSummonerOf(Myself),110000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-110000)
+		DestroySelf()
+END
+
+// NPC XP -110400--111500 => -111000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-111600)
+	CheckStatGT(LastSummonerOf(Myself),111000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-111000)
+		DestroySelf()
+END
+
+// NPC XP -111400--112500 => -112000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-112600)
+	CheckStatGT(LastSummonerOf(Myself),112000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-112000)
+		DestroySelf()
+END
+
+// NPC XP -112400--113500 => -113000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-113600)
+	CheckStatGT(LastSummonerOf(Myself),113000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-113000)
+		DestroySelf()
+END
+
+// NPC XP -113400--114500 => -114000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-114600)
+	CheckStatGT(LastSummonerOf(Myself),114000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-114000)
+		DestroySelf()
+END
+
+// NPC XP -114400--115500 => -115000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-115600)
+	CheckStatGT(LastSummonerOf(Myself),115000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-115000)
+		DestroySelf()
+END
+
+// NPC XP -115400--116600 => -116000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-116700)
+	CheckStatGT(LastSummonerOf(Myself),116000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-116000)
+		DestroySelf()
+END
+
+// NPC XP -116500--117700 => -117000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-117800)
+	CheckStatGT(LastSummonerOf(Myself),117000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-117000)
+		DestroySelf()
+END
+
+// NPC XP -117600--118800 => -118000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-118900)
+	CheckStatGT(LastSummonerOf(Myself),118000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-118000)
+		DestroySelf()
+END
+
+// NPC XP -118700--119900 => -119000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-120000)
+	CheckStatGT(LastSummonerOf(Myself),119000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-119000)
+		DestroySelf()
+END
+
+// NPC XP -119800--121000 => -120000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-121100)
+	CheckStatGT(LastSummonerOf(Myself),120000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-120000)
+		DestroySelf()
+END
+
+// NPC XP -120900--122100 => -122000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-122200)
+	CheckStatGT(LastSummonerOf(Myself),122000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-122000)
+		DestroySelf()
+END
+
+// NPC XP -122000--123200 => -123000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-123300)
+	CheckStatGT(LastSummonerOf(Myself),123000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-123000)
+		DestroySelf()
+END
+
+// NPC XP -123100--124300 => -124000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-124400)
+	CheckStatGT(LastSummonerOf(Myself),124000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-124000)
+		DestroySelf()
+END
+
+// NPC XP -124200--125400 => -125000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-125500)
+	CheckStatGT(LastSummonerOf(Myself),125000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-125000)
+		DestroySelf()
+END
+
+// NPC XP -125300--126600 => -126000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-126700)
+	CheckStatGT(LastSummonerOf(Myself),126000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-126000)
+		DestroySelf()
+END
+
+// NPC XP -126500--127800 => -127000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-127900)
+	CheckStatGT(LastSummonerOf(Myself),127000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-127000)
+		DestroySelf()
+END
+
+// NPC XP -127700--129000 => -128000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-129100)
+	CheckStatGT(LastSummonerOf(Myself),128000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-128000)
+		DestroySelf()
+END
+
+// NPC XP -128900--130200 => -130000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-130300)
+	CheckStatGT(LastSummonerOf(Myself),130000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-130000)
+		DestroySelf()
+END
+
+// NPC XP -130100--131400 => -131000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-131500)
+	CheckStatGT(LastSummonerOf(Myself),131000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-131000)
+		DestroySelf()
+END
+
+// NPC XP -131300--132600 => -132000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-132700)
+	CheckStatGT(LastSummonerOf(Myself),132000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-132000)
+		DestroySelf()
+END
+
+// NPC XP -132500--133800 => -133000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-133900)
+	CheckStatGT(LastSummonerOf(Myself),133000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-133000)
+		DestroySelf()
+END
+
+// NPC XP -133700--135000 => -134000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-135100)
+	CheckStatGT(LastSummonerOf(Myself),134000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-134000)
+		DestroySelf()
+END
+
+// NPC XP -134900--136200 => -136000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-136300)
+	CheckStatGT(LastSummonerOf(Myself),136000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-136000)
+		DestroySelf()
+END
+
+// NPC XP -136100--137500 => -137000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-137600)
+	CheckStatGT(LastSummonerOf(Myself),137000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-137000)
+		DestroySelf()
+END
+
+// NPC XP -137400--138800 => -138000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-138900)
+	CheckStatGT(LastSummonerOf(Myself),138000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-138000)
+		DestroySelf()
+END
+
+// NPC XP -138700--140100 => -139000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-140200)
+	CheckStatGT(LastSummonerOf(Myself),139000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-139000)
+		DestroySelf()
+END
+
+// NPC XP -140000--141400 => -141000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-141500)
+	CheckStatGT(LastSummonerOf(Myself),141000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-141000)
+		DestroySelf()
+END
+
+// NPC XP -141300--142700 => -142000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-142800)
+	CheckStatGT(LastSummonerOf(Myself),142000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-142000)
+		DestroySelf()
+END
+
+// NPC XP -142600--144000 => -143000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-144100)
+	CheckStatGT(LastSummonerOf(Myself),143000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-143000)
+		DestroySelf()
+END
+
+// NPC XP -143900--145300 => -145000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-145400)
+	CheckStatGT(LastSummonerOf(Myself),145000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-145000)
+		DestroySelf()
+END
+
+// NPC XP -145200--146700 => -146000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-146800)
+	CheckStatGT(LastSummonerOf(Myself),146000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-146000)
+		DestroySelf()
+END
+
+// NPC XP -146600--148100 => -147000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-148200)
+	CheckStatGT(LastSummonerOf(Myself),147000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-147000)
+		DestroySelf()
+END
+
+// NPC XP -148000--149500 => -149000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-149600)
+	CheckStatGT(LastSummonerOf(Myself),149000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-149000)
+		DestroySelf()
+END
+
+// NPC XP -149400--150900 => -150000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-151000)
+	CheckStatGT(LastSummonerOf(Myself),150000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-150000)
+		DestroySelf()
+END
+
+// NPC XP -150800--152300 => -152000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-152400)
+	CheckStatGT(LastSummonerOf(Myself),152000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-152000)
+		DestroySelf()
+END
+
+// NPC XP -152200--153700 => -153000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-153800)
+	CheckStatGT(LastSummonerOf(Myself),153000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-153000)
+		DestroySelf()
+END
+
+// NPC XP -153600--155100 => -154000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-155200)
+	CheckStatGT(LastSummonerOf(Myself),154000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-154000)
+		DestroySelf()
+END
+
+// NPC XP -155000--156600 => -156000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-156700)
+	CheckStatGT(LastSummonerOf(Myself),156000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-156000)
+		DestroySelf()
+END
+
+// NPC XP -156500--158100 => -157000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-158200)
+	CheckStatGT(LastSummonerOf(Myself),157000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-157000)
+		DestroySelf()
+END
+
+// NPC XP -158000--159600 => -159000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-159700)
+	CheckStatGT(LastSummonerOf(Myself),159000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-159000)
+		DestroySelf()
+END
+
+// NPC XP -159500--161100 => -160000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-161200)
+	CheckStatGT(LastSummonerOf(Myself),160000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-160000)
+		DestroySelf()
+END
+
+// NPC XP -161000--162600 => -162000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-162700)
+	CheckStatGT(LastSummonerOf(Myself),162000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-162000)
+		DestroySelf()
+END
+
+// NPC XP -162500--164100 => -163000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-164200)
+	CheckStatGT(LastSummonerOf(Myself),163000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-163000)
+		DestroySelf()
+END
+
+// NPC XP -164000--165600 => -165000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-165700)
+	CheckStatGT(LastSummonerOf(Myself),165000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-165000)
+		DestroySelf()
+END
+
+// NPC XP -165500--167200 => -166000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-167300)
+	CheckStatGT(LastSummonerOf(Myself),166000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-166000)
+		DestroySelf()
+END
+
+// NPC XP -167100--168800 => -168000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-168900)
+	CheckStatGT(LastSummonerOf(Myself),168000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-168000)
+		DestroySelf()
+END
+
+// NPC XP -168700--170400 => -170000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-170500)
+	CheckStatGT(LastSummonerOf(Myself),170000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-170000)
+		DestroySelf()
+END
+
+// NPC XP -170300--172000 => -171000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-172100)
+	CheckStatGT(LastSummonerOf(Myself),171000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-171000)
+		DestroySelf()
+END
+
+// NPC XP -171900--173600 => -173000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-173700)
+	CheckStatGT(LastSummonerOf(Myself),173000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-173000)
+		DestroySelf()
+END
+
+// NPC XP -173500--175200 => -174000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-175300)
+	CheckStatGT(LastSummonerOf(Myself),174000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-174000)
+		DestroySelf()
+END
+
+// NPC XP -175100--176900 => -176000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-177000)
+	CheckStatGT(LastSummonerOf(Myself),176000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-176000)
+		DestroySelf()
+END
+
+// NPC XP -176800--178600 => -178000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-178700)
+	CheckStatGT(LastSummonerOf(Myself),178000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-178000)
+		DestroySelf()
+END
+
+// NPC XP -178500--180300 => -179000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-180400)
+	CheckStatGT(LastSummonerOf(Myself),179000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-179000)
+		DestroySelf()
+END
+
+// NPC XP -180200--182000 => -181000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-182100)
+	CheckStatGT(LastSummonerOf(Myself),181000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-181000)
+		DestroySelf()
+END
+
+// NPC XP -181900--183700 => -183000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-183800)
+	CheckStatGT(LastSummonerOf(Myself),183000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-183000)
+		DestroySelf()
+END
+
+// NPC XP -183600--185400 => -185000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-185500)
+	CheckStatGT(LastSummonerOf(Myself),185000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-185000)
+		DestroySelf()
+END
+
+// NPC XP -185300--187200 => -186000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-187300)
+	CheckStatGT(LastSummonerOf(Myself),186000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-186000)
+		DestroySelf()
+END
+
+// NPC XP -187100--189000 => -188000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-189100)
+	CheckStatGT(LastSummonerOf(Myself),188000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-188000)
+		DestroySelf()
+END
+
+// NPC XP -188900--190800 => -190000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-190900)
+	CheckStatGT(LastSummonerOf(Myself),190000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-190000)
+		DestroySelf()
+END
+
+// NPC XP -190700--192600 => -192000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-192700)
+	CheckStatGT(LastSummonerOf(Myself),192000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-192000)
+		DestroySelf()
+END
+
+// NPC XP -192500--194400 => -193000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-194500)
+	CheckStatGT(LastSummonerOf(Myself),193000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-193000)
+		DestroySelf()
+END
+
+// NPC XP -194300--196200 => -195000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-196300)
+	CheckStatGT(LastSummonerOf(Myself),195000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-195000)
+		DestroySelf()
+END
+
+// NPC XP -196100--198100 => -197000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-198200)
+	CheckStatGT(LastSummonerOf(Myself),197000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-197000)
+		DestroySelf()
+END
+
+// NPC XP -198000--200000 => -199000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-200100)
+	CheckStatGT(LastSummonerOf(Myself),199000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-199000)
+		DestroySelf()
+END
+
+// NPC XP -199900--201900 => -201000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-202000)
+	CheckStatGT(LastSummonerOf(Myself),201000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-201000)
+		DestroySelf()
+END
+
+// NPC XP -201800--203800 => -203000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-203900)
+	CheckStatGT(LastSummonerOf(Myself),203000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-203000)
+		DestroySelf()
+END
+
+// NPC XP -203700--205700 => -205000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-205800)
+	CheckStatGT(LastSummonerOf(Myself),205000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-205000)
+		DestroySelf()
+END
+
+// NPC XP -205600--207700 => -207000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-207800)
+	CheckStatGT(LastSummonerOf(Myself),207000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-207000)
+		DestroySelf()
+END
+
+// NPC XP -207600--209700 => -209000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-209800)
+	CheckStatGT(LastSummonerOf(Myself),209000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-209000)
+		DestroySelf()
+END
+
+// NPC XP -209600--211700 => -211000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-211800)
+	CheckStatGT(LastSummonerOf(Myself),211000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-211000)
+		DestroySelf()
+END
+
+// NPC XP -211600--213700 => -213000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-213800)
+	CheckStatGT(LastSummonerOf(Myself),213000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-213000)
+		DestroySelf()
+END
+
+// NPC XP -213600--215700 => -215000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-215800)
+	CheckStatGT(LastSummonerOf(Myself),215000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-215000)
+		DestroySelf()
+END
+
+// NPC XP -215600--217800 => -217000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-217900)
+	CheckStatGT(LastSummonerOf(Myself),217000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-217000)
+		DestroySelf()
+END
+
+// NPC XP -217700--219900 => -219000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-220000)
+	CheckStatGT(LastSummonerOf(Myself),219000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-219000)
+		DestroySelf()
+END
+
+// NPC XP -219800--222000 => -221000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-222100)
+	CheckStatGT(LastSummonerOf(Myself),221000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-221000)
+		DestroySelf()
+END
+
+// NPC XP -221900--224100 => -223000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-224200)
+	CheckStatGT(LastSummonerOf(Myself),223000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-223000)
+		DestroySelf()
+END
+
+// NPC XP -224000--226200 => -225000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-226300)
+	CheckStatGT(LastSummonerOf(Myself),225000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-225000)
+		DestroySelf()
+END
+
+// NPC XP -226100--228400 => -227000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-228500)
+	CheckStatGT(LastSummonerOf(Myself),227000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-227000)
+		DestroySelf()
+END
+
+// NPC XP -228300--230600 => -229000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-230700)
+	CheckStatGT(LastSummonerOf(Myself),229000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-229000)
+		DestroySelf()
+END
+
+// NPC XP -230500--232800 => -232000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-232900)
+	CheckStatGT(LastSummonerOf(Myself),232000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-232000)
+		DestroySelf()
+END
+
+// NPC XP -232700--235000 => -234000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-235100)
+	CheckStatGT(LastSummonerOf(Myself),234000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-234000)
+		DestroySelf()
+END
+
+// NPC XP -234900--237200 => -236000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-237300)
+	CheckStatGT(LastSummonerOf(Myself),236000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-236000)
+		DestroySelf()
+END
+
+// NPC XP -237100--239500 => -238000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-239600)
+	CheckStatGT(LastSummonerOf(Myself),238000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-238000)
+		DestroySelf()
+END
+
+// NPC XP -239400--241800 => -241000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-241900)
+	CheckStatGT(LastSummonerOf(Myself),241000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-241000)
+		DestroySelf()
+END
+
+// NPC XP -241700--244100 => -243000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-244200)
+	CheckStatGT(LastSummonerOf(Myself),243000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-243000)
+		DestroySelf()
+END
+
+// NPC XP -244000--246400 => -245000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-246500)
+	CheckStatGT(LastSummonerOf(Myself),245000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-245000)
+		DestroySelf()
+END
+
+// NPC XP -246300--248800 => -248000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-248900)
+	CheckStatGT(LastSummonerOf(Myself),248000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-248000)
+		DestroySelf()
+END
+
+// NPC XP -248700--251200 => -250000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-251300)
+	CheckStatGT(LastSummonerOf(Myself),250000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-250000)
+		DestroySelf()
+END
+
+// NPC XP -251100--253600 => -252000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-253700)
+	CheckStatGT(LastSummonerOf(Myself),252000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-252000)
+		DestroySelf()
+END
+
+// NPC XP -253500--256000 => -255000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-256100)
+	CheckStatGT(LastSummonerOf(Myself),255000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-255000)
+		DestroySelf()
+END
+
+// NPC XP -255900--258500 => -257000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-258600)
+	CheckStatGT(LastSummonerOf(Myself),257000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-257000)
+		DestroySelf()
+END
+
+// NPC XP -258400--261000 => -260000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-261100)
+	CheckStatGT(LastSummonerOf(Myself),260000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-260000)
+		DestroySelf()
+END
+
+// NPC XP -260900--263500 => -262000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-263600)
+	CheckStatGT(LastSummonerOf(Myself),262000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-262000)
+		DestroySelf()
+END
+
+// NPC XP -263400--266000 => -265000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-266100)
+	CheckStatGT(LastSummonerOf(Myself),265000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-265000)
+		DestroySelf()
+END
+
+// NPC XP -265900--268600 => -267000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-268700)
+	CheckStatGT(LastSummonerOf(Myself),267000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-267000)
+		DestroySelf()
+END
+
+// NPC XP -268500--271200 => -270000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-271300)
+	CheckStatGT(LastSummonerOf(Myself),270000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-270000)
+		DestroySelf()
+END
+
+// NPC XP -271100--273800 => -272000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-273900)
+	CheckStatGT(LastSummonerOf(Myself),272000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-272000)
+		DestroySelf()
+END
+
+// NPC XP -273700--276400 => -275000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-276500)
+	CheckStatGT(LastSummonerOf(Myself),275000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-275000)
+		DestroySelf()
+END
+
+// NPC XP -276300--279100 => -278000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-279200)
+	CheckStatGT(LastSummonerOf(Myself),278000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-278000)
+		DestroySelf()
+END
+
+// NPC XP -279000--281800 => -280000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-281900)
+	CheckStatGT(LastSummonerOf(Myself),280000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-280000)
+		DestroySelf()
+END
+
+// NPC XP -281700--284500 => -283000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-284600)
+	CheckStatGT(LastSummonerOf(Myself),283000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-283000)
+		DestroySelf()
+END
+
+// NPC XP -284400--287200 => -286000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-287300)
+	CheckStatGT(LastSummonerOf(Myself),286000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-286000)
+		DestroySelf()
+END
+
+// NPC XP -287100--290000 => -289000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-290100)
+	CheckStatGT(LastSummonerOf(Myself),289000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-289000)
+		DestroySelf()
+END
+
+// NPC XP -289900--292800 => -291000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-292900)
+	CheckStatGT(LastSummonerOf(Myself),291000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-291000)
+		DestroySelf()
+END
+
+// NPC XP -292700--295600 => -294000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-295700)
+	CheckStatGT(LastSummonerOf(Myself),294000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-294000)
+		DestroySelf()
+END
+
+// NPC XP -295500--298500 => -297000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-298600)
+	CheckStatGT(LastSummonerOf(Myself),297000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-297000)
+		DestroySelf()
+END
+
+// NPC XP -298400--301400 => -300000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-301500)
+	CheckStatGT(LastSummonerOf(Myself),300000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-300000)
+		DestroySelf()
+END
+
+// NPC XP -301300--304300 => -303000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-304400)
+	CheckStatGT(LastSummonerOf(Myself),303000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-303000)
+		DestroySelf()
+END
+
+// NPC XP -304200--307200 => -306000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-307300)
+	CheckStatGT(LastSummonerOf(Myself),306000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-306000)
+		DestroySelf()
+END
+
+// NPC XP -307100--310200 => -309000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-310300)
+	CheckStatGT(LastSummonerOf(Myself),309000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-309000)
+		DestroySelf()
+END
+
+// NPC XP -310100--313200 => -312000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-313300)
+	CheckStatGT(LastSummonerOf(Myself),312000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-312000)
+		DestroySelf()
+END
+
+// NPC XP -313100--316200 => -315000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-316300)
+	CheckStatGT(LastSummonerOf(Myself),315000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-315000)
+		DestroySelf()
+END
+
+// NPC XP -316100--319300 => -318000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-319400)
+	CheckStatGT(LastSummonerOf(Myself),318000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-318000)
+		DestroySelf()
+END
+
+// NPC XP -319200--322400 => -321000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-322500)
+	CheckStatGT(LastSummonerOf(Myself),321000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-321000)
+		DestroySelf()
+END
+
+// NPC XP -322300--325500 => -324000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-325600)
+	CheckStatGT(LastSummonerOf(Myself),324000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-324000)
+		DestroySelf()
+END
+
+// NPC XP -325400--328700 => -327000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-328800)
+	CheckStatGT(LastSummonerOf(Myself),327000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-327000)
+		DestroySelf()
+END
+
+// NPC XP -328600--331900 => -330000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-332000)
+	CheckStatGT(LastSummonerOf(Myself),330000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-330000)
+		DestroySelf()
+END
+
+// NPC XP -331800--335100 => -333000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-335200)
+	CheckStatGT(LastSummonerOf(Myself),333000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-333000)
+		DestroySelf()
+END
+
+// NPC XP -335000--338400 => -337000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-338500)
+	CheckStatGT(LastSummonerOf(Myself),337000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-337000)
+		DestroySelf()
+END
+
+// NPC XP -338300--341700 => -340000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-341800)
+	CheckStatGT(LastSummonerOf(Myself),340000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-340000)
+		DestroySelf()
+END
+
+// NPC XP -341600--345000 => -343000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-345100)
+	CheckStatGT(LastSummonerOf(Myself),343000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-343000)
+		DestroySelf()
+END
+
+// NPC XP -344900--348300 => -347000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-348400)
+	CheckStatGT(LastSummonerOf(Myself),347000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-347000)
+		DestroySelf()
+END
+
+// NPC XP -348200--351700 => -350000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-351800)
+	CheckStatGT(LastSummonerOf(Myself),350000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-350000)
+		DestroySelf()
+END
+
+// NPC XP -351600--355100 => -353000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-355200)
+	CheckStatGT(LastSummonerOf(Myself),353000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-353000)
+		DestroySelf()
+END
+
+// NPC XP -355000--358600 => -357000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-358700)
+	CheckStatGT(LastSummonerOf(Myself),357000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-357000)
+		DestroySelf()
+END
+
+// NPC XP -358500--362100 => -360000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-362200)
+	CheckStatGT(LastSummonerOf(Myself),360000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-360000)
+		DestroySelf()
+END
+
+// NPC XP -362000--365600 => -364000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-365700)
+	CheckStatGT(LastSummonerOf(Myself),364000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-364000)
+		DestroySelf()
+END
+
+// NPC XP -365500--369200 => -367000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-369300)
+	CheckStatGT(LastSummonerOf(Myself),367000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-367000)
+		DestroySelf()
+END
+
+// NPC XP -369100--372800 => -371000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-372900)
+	CheckStatGT(LastSummonerOf(Myself),371000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-371000)
+		DestroySelf()
+END
+
+// NPC XP -372700--376400 => -375000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-376500)
+	CheckStatGT(LastSummonerOf(Myself),375000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-375000)
+		DestroySelf()
+END
+
+// NPC XP -376300--380100 => -378000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-380200)
+	CheckStatGT(LastSummonerOf(Myself),378000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-378000)
+		DestroySelf()
+END
+
+// NPC XP -380000--383800 => -382000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-383900)
+	CheckStatGT(LastSummonerOf(Myself),382000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-382000)
+		DestroySelf()
+END
+
+// NPC XP -383700--387500 => -386000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-387600)
+	CheckStatGT(LastSummonerOf(Myself),386000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-386000)
+		DestroySelf()
+END
+
+// NPC XP -387400--391300 => -389000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-391400)
+	CheckStatGT(LastSummonerOf(Myself),389000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-389000)
+		DestroySelf()
+END
+
+// NPC XP -391200--395100 => -393000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-395200)
+	CheckStatGT(LastSummonerOf(Myself),393000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-393000)
+		DestroySelf()
+END
+
+// NPC XP -395000--399000 => -397000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-399100)
+	CheckStatGT(LastSummonerOf(Myself),397000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-397000)
+		DestroySelf()
+END
+
+// NPC XP -398900--402900 => -401000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-403000)
+	CheckStatGT(LastSummonerOf(Myself),401000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-401000)
+		DestroySelf()
+END
+
+// NPC XP -402800--406800 => -405000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-406900)
+	CheckStatGT(LastSummonerOf(Myself),405000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-405000)
+		DestroySelf()
+END
+
+// NPC XP -406700--410800 => -409000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-410900)
+	CheckStatGT(LastSummonerOf(Myself),409000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-409000)
+		DestroySelf()
+END
+
+// NPC XP -410700--414800 => -413000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-414900)
+	CheckStatGT(LastSummonerOf(Myself),413000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-413000)
+		DestroySelf()
+END
+
+// NPC XP -414700--418800 => -417000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-418900)
+	CheckStatGT(LastSummonerOf(Myself),417000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-417000)
+		DestroySelf()
+END
+
+// NPC XP -418700--422900 => -421000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-423000)
+	CheckStatGT(LastSummonerOf(Myself),421000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-421000)
+		DestroySelf()
+END
+
+// NPC XP -422800--427000 => -425000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-427100)
+	CheckStatGT(LastSummonerOf(Myself),425000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-425000)
+		DestroySelf()
+END
+
+// NPC XP -426900--431200 => -429000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-431300)
+	CheckStatGT(LastSummonerOf(Myself),429000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-429000)
+		DestroySelf()
+END
+
+// NPC XP -431100--435400 => -433000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-435500)
+	CheckStatGT(LastSummonerOf(Myself),433000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-433000)
+		DestroySelf()
+END
+
+// NPC XP -435300--439700 => -437000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-439800)
+	CheckStatGT(LastSummonerOf(Myself),437000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-437000)
+		DestroySelf()
+END
+
+// NPC XP -439600--444000 => -442000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-444100)
+	CheckStatGT(LastSummonerOf(Myself),442000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-442000)
+		DestroySelf()
+END
+
+// NPC XP -443900--448300 => -446000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-448400)
+	CheckStatGT(LastSummonerOf(Myself),446000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-446000)
+		DestroySelf()
+END
+
+// NPC XP -448200--452700 => -450000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-452800)
+	CheckStatGT(LastSummonerOf(Myself),450000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-450000)
+		DestroySelf()
+END
+
+// NPC XP -452600--457100 => -455000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-457200)
+	CheckStatGT(LastSummonerOf(Myself),455000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-455000)
+		DestroySelf()
+END
+
+// NPC XP -457000--461600 => -459000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-461700)
+	CheckStatGT(LastSummonerOf(Myself),459000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-459000)
+		DestroySelf()
+END
+
+// NPC XP -461500--466100 => -464000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-466200)
+	CheckStatGT(LastSummonerOf(Myself),464000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-464000)
+		DestroySelf()
+END
+
+// NPC XP -466000--470700 => -468000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-470800)
+	CheckStatGT(LastSummonerOf(Myself),468000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-468000)
+		DestroySelf()
+END
+
+// NPC XP -470600--475300 => -473000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-475400)
+	CheckStatGT(LastSummonerOf(Myself),473000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-473000)
+		DestroySelf()
+END
+
+// NPC XP -475200--480000 => -478000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-480100)
+	CheckStatGT(LastSummonerOf(Myself),478000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-478000)
+		DestroySelf()
+END
+
+// NPC XP -479900--484700 => -482000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-484800)
+	CheckStatGT(LastSummonerOf(Myself),482000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-482000)
+		DestroySelf()
+END
+
+// NPC XP -484600--489400 => -487000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-489500)
+	CheckStatGT(LastSummonerOf(Myself),487000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-487000)
+		DestroySelf()
+END
+
+// NPC XP -489300--494200 => -492000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-494300)
+	CheckStatGT(LastSummonerOf(Myself),492000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-492000)
+		DestroySelf()
+END
+
+// NPC XP -494100--499000 => -497000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-499100)
+	CheckStatGT(LastSummonerOf(Myself),497000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-497000)
+		DestroySelf()
+END
+
+// NPC XP -498900--503900 => -501000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-504000)
+	CheckStatGT(LastSummonerOf(Myself),501000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-501000)
+		DestroySelf()
+END
+
+// NPC XP -503800--508800 => -506000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-508900)
+	CheckStatGT(LastSummonerOf(Myself),506000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-506000)
+		DestroySelf()
+END
+
+// NPC XP -508700--513800 => -511000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-513900)
+	CheckStatGT(LastSummonerOf(Myself),511000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-511000)
+		DestroySelf()
+END
+
+// NPC XP -513700--518800 => -516000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-518900)
+	CheckStatGT(LastSummonerOf(Myself),516000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-516000)
+		DestroySelf()
+END
+
+// NPC XP -518700--523900 => -521000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-524000)
+	CheckStatGT(LastSummonerOf(Myself),521000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-521000)
+		DestroySelf()
+END
+
+// NPC XP -523800--529000 => -526000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-529100)
+	CheckStatGT(LastSummonerOf(Myself),526000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-526000)
+		DestroySelf()
+END
+
+// NPC XP -528900--534200 => -532000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-534300)
+	CheckStatGT(LastSummonerOf(Myself),532000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-532000)
+		DestroySelf()
+END
+
+// NPC XP -534100--539400 => -537000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-539500)
+	CheckStatGT(LastSummonerOf(Myself),537000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-537000)
+		DestroySelf()
+END
+
+// NPC XP -539300--544700 => -542000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-544800)
+	CheckStatGT(LastSummonerOf(Myself),542000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-542000)
+		DestroySelf()
+END
+
+// NPC XP -544600--550000 => -547000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-550100)
+	CheckStatGT(LastSummonerOf(Myself),547000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-547000)
+		DestroySelf()
+END
+
+// NPC XP -549900--555400 => -553000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-555500)
+	CheckStatGT(LastSummonerOf(Myself),553000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-553000)
+		DestroySelf()
+END
+
+// NPC XP -555300--560900 => -558000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-561000)
+	CheckStatGT(LastSummonerOf(Myself),558000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-558000)
+		DestroySelf()
+END
+
+// NPC XP -560800--566400 => -564000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-566500)
+	CheckStatGT(LastSummonerOf(Myself),564000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-564000)
+		DestroySelf()
+END
+
+// NPC XP -566300--572000 => -569000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-572100)
+	CheckStatGT(LastSummonerOf(Myself),569000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-569000)
+		DestroySelf()
+END
+
+// NPC XP -571900--577600 => -575000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-577700)
+	CheckStatGT(LastSummonerOf(Myself),575000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-575000)
+		DestroySelf()
+END
+
+// NPC XP -577500--583300 => -580000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-583400)
+	CheckStatGT(LastSummonerOf(Myself),580000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-580000)
+		DestroySelf()
+END
+
+// NPC XP -583200--589000 => -586000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-589100)
+	CheckStatGT(LastSummonerOf(Myself),586000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-586000)
+		DestroySelf()
+END
+
+// NPC XP -588900--594800 => -592000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-594900)
+	CheckStatGT(LastSummonerOf(Myself),592000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-592000)
+		DestroySelf()
+END
+
+// NPC XP -594700--600600 => -598000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-600700)
+	CheckStatGT(LastSummonerOf(Myself),598000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-598000)
+		DestroySelf()
+END
+
+// NPC XP -600500--606500 => -604000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-606600)
+	CheckStatGT(LastSummonerOf(Myself),604000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-604000)
+		DestroySelf()
+END
+
+// NPC XP -606400--612500 => -609000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-612600)
+	CheckStatGT(LastSummonerOf(Myself),609000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-609000)
+		DestroySelf()
+END
+
+// NPC XP -612400--618500 => -615000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-618600)
+	CheckStatGT(LastSummonerOf(Myself),615000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-615000)
+		DestroySelf()
+END
+
+// NPC XP -618400--624600 => -621000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-624700)
+	CheckStatGT(LastSummonerOf(Myself),621000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-621000)
+		DestroySelf()
+END
+
+// NPC XP -624500--630700 => -628000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-630800)
+	CheckStatGT(LastSummonerOf(Myself),628000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-628000)
+		DestroySelf()
+END
+
+// NPC XP -630600--636900 => -634000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-637000)
+	CheckStatGT(LastSummonerOf(Myself),634000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-634000)
+		DestroySelf()
+END
+
+// NPC XP -636800--643200 => -640000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-643300)
+	CheckStatGT(LastSummonerOf(Myself),640000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-640000)
+		DestroySelf()
+END
+
+// NPC XP -643100--649500 => -646000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-649600)
+	CheckStatGT(LastSummonerOf(Myself),646000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-646000)
+		DestroySelf()
+END
+
+// NPC XP -649400--655900 => -653000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-656000)
+	CheckStatGT(LastSummonerOf(Myself),653000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-653000)
+		DestroySelf()
+END
+
+// NPC XP -655800--662400 => -659000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-662500)
+	CheckStatGT(LastSummonerOf(Myself),659000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-659000)
+		DestroySelf()
+END
+
+// NPC XP -662300--668900 => -666000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-669000)
+	CheckStatGT(LastSummonerOf(Myself),666000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-666000)
+		DestroySelf()
+END
+
+// NPC XP -668800--675500 => -672000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-675600)
+	CheckStatGT(LastSummonerOf(Myself),672000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-672000)
+		DestroySelf()
+END
+
+// NPC XP -675400--682200 => -679000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-682300)
+	CheckStatGT(LastSummonerOf(Myself),679000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-679000)
+		DestroySelf()
+END
+
+// NPC XP -682100--688900 => -686000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-689000)
+	CheckStatGT(LastSummonerOf(Myself),686000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-686000)
+		DestroySelf()
+END
+
+// NPC XP -688800--695700 => -692000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-695800)
+	CheckStatGT(LastSummonerOf(Myself),692000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-692000)
+		DestroySelf()
+END
+
+// NPC XP -695600--702600 => -699000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-702700)
+	CheckStatGT(LastSummonerOf(Myself),699000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-699000)
+		DestroySelf()
+END
+
+// NPC XP -702500--709500 => -706000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-709600)
+	CheckStatGT(LastSummonerOf(Myself),706000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-706000)
+		DestroySelf()
+END
+
+// NPC XP -709400--716500 => -713000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-716600)
+	CheckStatGT(LastSummonerOf(Myself),713000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-713000)
+		DestroySelf()
+END
+
+// NPC XP -716400--723600 => -720000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-723700)
+	CheckStatGT(LastSummonerOf(Myself),720000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-720000)
+		DestroySelf()
+END
+
+// NPC XP -723500--730700 => -727000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-730800)
+	CheckStatGT(LastSummonerOf(Myself),727000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-727000)
+		DestroySelf()
+END
+
+// NPC XP -730600--737900 => -734000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-738000)
+	CheckStatGT(LastSummonerOf(Myself),734000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-734000)
+		DestroySelf()
+END
+
+// NPC XP -737800--745200 => -741000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-745300)
+	CheckStatGT(LastSummonerOf(Myself),741000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-741000)
+		DestroySelf()
+END
+
+// NPC XP -745100--752600 => -749000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-752700)
+	CheckStatGT(LastSummonerOf(Myself),749000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-749000)
+		DestroySelf()
+END
+
+// NPC XP -752500--760000 => -756000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-760100)
+	CheckStatGT(LastSummonerOf(Myself),756000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-756000)
+		DestroySelf()
+END
+
+// NPC XP -759900--767500 => -764000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-767600)
+	CheckStatGT(LastSummonerOf(Myself),764000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-764000)
+		DestroySelf()
+END
+
+// NPC XP -767400--775100 => -771000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-775200)
+	CheckStatGT(LastSummonerOf(Myself),771000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-771000)
+		DestroySelf()
+END
+
+// NPC XP -775000--782800 => -779000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-782900)
+	CheckStatGT(LastSummonerOf(Myself),779000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-779000)
+		DestroySelf()
+END
+
+// NPC XP -782700--790500 => -787000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-790600)
+	CheckStatGT(LastSummonerOf(Myself),787000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-787000)
+		DestroySelf()
+END
+
+// NPC XP -790400--798300 => -794000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-798400)
+	CheckStatGT(LastSummonerOf(Myself),794000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-794000)
+		DestroySelf()
+END
+
+// NPC XP -798200--806200 => -802000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-806300)
+	CheckStatGT(LastSummonerOf(Myself),802000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-802000)
+		DestroySelf()
+END
+
+// NPC XP -806100--814200 => -810000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-814300)
+	CheckStatGT(LastSummonerOf(Myself),810000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-810000)
+		DestroySelf()
+END
+
+// NPC XP -814100--822200 => -818000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-822300)
+	CheckStatGT(LastSummonerOf(Myself),818000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-818000)
+		DestroySelf()
+END
+
+// NPC XP -822100--830300 => -826000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-830400)
+	CheckStatGT(LastSummonerOf(Myself),826000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-826000)
+		DestroySelf()
+END
+
+// NPC XP -830200--838500 => -834000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-838600)
+	CheckStatGT(LastSummonerOf(Myself),834000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-834000)
+		DestroySelf()
+END
+
+// NPC XP -838400--846800 => -843000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-846900)
+	CheckStatGT(LastSummonerOf(Myself),843000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-843000)
+		DestroySelf()
+END
+
+// NPC XP -846700--855200 => -851000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-855300)
+	CheckStatGT(LastSummonerOf(Myself),851000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-851000)
+		DestroySelf()
+END
+
+// NPC XP -855100--863700 => -859000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-863800)
+	CheckStatGT(LastSummonerOf(Myself),859000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-859000)
+		DestroySelf()
+END
+
+// NPC XP -863600--872200 => -868000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-872300)
+	CheckStatGT(LastSummonerOf(Myself),868000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-868000)
+		DestroySelf()
+END
+
+// NPC XP -872100--880800 => -876000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-880900)
+	CheckStatGT(LastSummonerOf(Myself),876000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-876000)
+		DestroySelf()
+END
+
+// NPC XP -880700--889500 => -885000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-889600)
+	CheckStatGT(LastSummonerOf(Myself),885000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-885000)
+		DestroySelf()
+END
+
+// NPC XP -889400--898300 => -894000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-898400)
+	CheckStatGT(LastSummonerOf(Myself),894000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-894000)
+		DestroySelf()
+END
+
+// NPC XP -898200--907200 => -903000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-907300)
+	CheckStatGT(LastSummonerOf(Myself),903000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-903000)
+		DestroySelf()
+END
+
+// NPC XP -907100--916200 => -912000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-916300)
+	CheckStatGT(LastSummonerOf(Myself),912000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-912000)
+		DestroySelf()
+END
+
+// NPC XP -916100--925300 => -921000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-925400)
+	CheckStatGT(LastSummonerOf(Myself),921000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-921000)
+		DestroySelf()
+END
+
+// NPC XP -925200--934500 => -930000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-934600)
+	CheckStatGT(LastSummonerOf(Myself),930000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-930000)
+		DestroySelf()
+END
+
+// NPC XP -934400--943700 => -939000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-943800)
+	CheckStatGT(LastSummonerOf(Myself),939000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-939000)
+		DestroySelf()
+END
+
+// NPC XP -943600--953000 => -948000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-953100)
+	CheckStatGT(LastSummonerOf(Myself),948000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-948000)
+		DestroySelf()
+END
+
+// NPC XP -952900--962400 => -958000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-962500)
+	CheckStatGT(LastSummonerOf(Myself),958000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-958000)
+		DestroySelf()
+END
+
+// NPC XP -962300--971900 => -967000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-972000)
+	CheckStatGT(LastSummonerOf(Myself),967000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-967000)
+		DestroySelf()
+END
+
+// NPC XP -971800--981500 => -977000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-981600)
+	CheckStatGT(LastSummonerOf(Myself),977000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-977000)
+		DestroySelf()
+END
+
+// NPC XP -981400--991200 => -986000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-991300)
+	CheckStatGT(LastSummonerOf(Myself),986000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-986000)
+		DestroySelf()
+END
+
+// NPC XP -991100--1001000 => -996000
+IF
+	GlobalGT("XPSYNC_GRANT","LOCALS",-1001100)
+	CheckStatGT(LastSummonerOf(Myself),996000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-996000)
+		DestroySelf()
+END
+
+// Reached end - can happen if we have enough XP to remove
+// Jump to a fallback zeroing script
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xpsgrazz",OVERRIDE)
+END

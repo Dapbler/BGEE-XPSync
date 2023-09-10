@@ -101,12 +101,11 @@ END
 // Quit script if beyond 100000000 experience
 // ===========================================================
 
-// If either NPC and PC XP is larger than our maximum test range END
+// If both NPC and PC XP is larger than our maximum test range END
 
 IF
-	OR(2)
-		CheckStatGT(Player1,100000000,XP)
-		CheckStatGT(LastSummonerOf(Myself),100000000,XP)
+	CheckStatGT(Player1,100000000,XP)
+	CheckStatGT(LastSummonerOf(Myself),100000000,XP)
 THEN
 	RESPONSE #100
         AddXpObject(LastSummonerOf(Myself),0) // Just to indicate completion

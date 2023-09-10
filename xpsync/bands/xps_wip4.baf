@@ -1,0 +1,2007 @@
+
+// NPC XP 10000-10100 => 10050
+IF
+	CheckStatLT(LastSummonerOf(Myself),10110,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10050)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10110-10210 => 10160
+IF
+	CheckStatLT(LastSummonerOf(Myself),10220,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10160)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10220-10320 => 10270
+IF
+	CheckStatLT(LastSummonerOf(Myself),10330,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10270)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10330-10430 => 10380
+IF
+	CheckStatLT(LastSummonerOf(Myself),10440,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10380)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10440-10540 => 10490
+IF
+	CheckStatLT(LastSummonerOf(Myself),10550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10490)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10550-10660 => 10600
+IF
+	CheckStatLT(LastSummonerOf(Myself),10670,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10600)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10670-10780 => 10720
+IF
+	CheckStatLT(LastSummonerOf(Myself),10790,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10790-10900 => 10840
+IF
+	CheckStatLT(LastSummonerOf(Myself),10910,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10840)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 10910-11020 => 10960
+IF
+	CheckStatLT(LastSummonerOf(Myself),11030,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-10960)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11030-11140 => 11090
+IF
+	CheckStatLT(LastSummonerOf(Myself),11150,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11150-11260 => 11210
+IF
+	CheckStatLT(LastSummonerOf(Myself),11270,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11210)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11270-11380 => 11330
+IF
+	CheckStatLT(LastSummonerOf(Myself),11390,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11330)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11390-11500 => 11450
+IF
+	CheckStatLT(LastSummonerOf(Myself),11510,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11450)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11510-11630 => 11570
+IF
+	CheckStatLT(LastSummonerOf(Myself),11640,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11570)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11640-11760 => 11700
+IF
+	CheckStatLT(LastSummonerOf(Myself),11770,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11700)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11770-11890 => 11830
+IF
+	CheckStatLT(LastSummonerOf(Myself),11900,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11830)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 11900-12020 => 11960
+IF
+	CheckStatLT(LastSummonerOf(Myself),12030,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-11960)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12030-12150 => 12090
+IF
+	CheckStatLT(LastSummonerOf(Myself),12160,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12160-12280 => 12220
+IF
+	CheckStatLT(LastSummonerOf(Myself),12290,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12220)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12290-12410 => 12350
+IF
+	CheckStatLT(LastSummonerOf(Myself),12420,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12350)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12420-12540 => 12480
+IF
+	CheckStatLT(LastSummonerOf(Myself),12550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12480)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12550-12680 => 12610
+IF
+	CheckStatLT(LastSummonerOf(Myself),12690,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12610)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12690-12820 => 12750
+IF
+	CheckStatLT(LastSummonerOf(Myself),12830,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12830-12960 => 12890
+IF
+	CheckStatLT(LastSummonerOf(Myself),12970,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-12890)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 12970-13100 => 13030
+IF
+	CheckStatLT(LastSummonerOf(Myself),13110,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13030)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13110-13240 => 13180
+IF
+	CheckStatLT(LastSummonerOf(Myself),13250,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13180)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13250-13380 => 13320
+IF
+	CheckStatLT(LastSummonerOf(Myself),13390,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13320)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13390-13520 => 13460
+IF
+	CheckStatLT(LastSummonerOf(Myself),13530,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13460)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13530-13670 => 13600
+IF
+	CheckStatLT(LastSummonerOf(Myself),13680,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13600)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13680-13820 => 13750
+IF
+	CheckStatLT(LastSummonerOf(Myself),13830,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13830-13970 => 13900
+IF
+	CheckStatLT(LastSummonerOf(Myself),13980,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-13900)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 13980-14120 => 14050
+IF
+	CheckStatLT(LastSummonerOf(Myself),14130,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14050)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14130-14270 => 14200
+IF
+	CheckStatLT(LastSummonerOf(Myself),14280,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14200)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14280-14420 => 14350
+IF
+	CheckStatLT(LastSummonerOf(Myself),14430,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14350)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14430-14570 => 14500
+IF
+	CheckStatLT(LastSummonerOf(Myself),14580,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14500)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14580-14730 => 14650
+IF
+	CheckStatLT(LastSummonerOf(Myself),14740,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14650)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14740-14890 => 14810
+IF
+	CheckStatLT(LastSummonerOf(Myself),14900,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14810)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 14900-15050 => 14970
+IF
+	CheckStatLT(LastSummonerOf(Myself),15060,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-14970)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15060-15210 => 15140
+IF
+	CheckStatLT(LastSummonerOf(Myself),15220,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15140)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15220-15370 => 15300
+IF
+	CheckStatLT(LastSummonerOf(Myself),15380,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15300)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15380-15530 => 15460
+IF
+	CheckStatLT(LastSummonerOf(Myself),15540,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15460)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15540-15700 => 15620
+IF
+	CheckStatLT(LastSummonerOf(Myself),15710,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15620)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15710-15870 => 15790
+IF
+	CheckStatLT(LastSummonerOf(Myself),15880,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15790)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 15880-16040 => 15960
+IF
+	CheckStatLT(LastSummonerOf(Myself),16050,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-15960)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16050-16210 => 16130
+IF
+	CheckStatLT(LastSummonerOf(Myself),16220,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-16130)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16220-16380 => 16300
+IF
+	CheckStatLT(LastSummonerOf(Myself),16390,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-16300)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16390-16550 => 16470
+IF
+	CheckStatLT(LastSummonerOf(Myself),16560,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-16470)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16560-16730 => 16640
+IF
+	CheckStatLT(LastSummonerOf(Myself),16740,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-16640)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16740-16910 => 16820
+IF
+	CheckStatLT(LastSummonerOf(Myself),16920,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-16820)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 16920-17090 => 17000
+IF
+	CheckStatLT(LastSummonerOf(Myself),17100,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17000)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 17100-17270 => 17190
+IF
+	CheckStatLT(LastSummonerOf(Myself),17280,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17190)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 17280-17450 => 17370
+IF
+	CheckStatLT(LastSummonerOf(Myself),17460,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17370)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 17460-17630 => 17550
+IF
+	CheckStatLT(LastSummonerOf(Myself),17640,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17550)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 17640-17820 => 17730
+IF
+	CheckStatLT(LastSummonerOf(Myself),17830,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17730)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 17830-18010 => 17920
+IF
+	CheckStatLT(LastSummonerOf(Myself),18020,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-17920)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18020-18200 => 18110
+IF
+	CheckStatLT(LastSummonerOf(Myself),18210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-18110)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18210-18390 => 18300
+IF
+	CheckStatLT(LastSummonerOf(Myself),18400,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-18300)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18400-18580 => 18490
+IF
+	CheckStatLT(LastSummonerOf(Myself),18590,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-18490)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18590-18780 => 18680
+IF
+	CheckStatLT(LastSummonerOf(Myself),18790,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-18680)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18790-18980 => 18880
+IF
+	CheckStatLT(LastSummonerOf(Myself),18990,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-18880)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 18990-19180 => 19080
+IF
+	CheckStatLT(LastSummonerOf(Myself),19190,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-19080)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 19190-19380 => 19290
+IF
+	CheckStatLT(LastSummonerOf(Myself),19390,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-19290)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 19390-19580 => 19490
+IF
+	CheckStatLT(LastSummonerOf(Myself),19590,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-19490)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 19590-19790 => 19690
+IF
+	CheckStatLT(LastSummonerOf(Myself),19800,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-19690)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 19800-20000 => 19900
+IF
+	CheckStatLT(LastSummonerOf(Myself),20010,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-19900)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 20010-20210 => 20110
+IF
+	CheckStatLT(LastSummonerOf(Myself),20220,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-20110)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 20220-20420 => 20320
+IF
+	CheckStatLT(LastSummonerOf(Myself),20430,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-20320)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 20430-20630 => 20530
+IF
+	CheckStatLT(LastSummonerOf(Myself),20640,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-20530)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 20640-20850 => 20740
+IF
+	CheckStatLT(LastSummonerOf(Myself),20860,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-20740)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 20860-21070 => 20960
+IF
+	CheckStatLT(LastSummonerOf(Myself),21080,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-20960)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 21080-21290 => 21190
+IF
+	CheckStatLT(LastSummonerOf(Myself),21300,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-21190)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 21300-21510 => 21410
+IF
+	CheckStatLT(LastSummonerOf(Myself),21520,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-21410)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 21520-21740 => 21630
+IF
+	CheckStatLT(LastSummonerOf(Myself),21750,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-21630)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 21750-21970 => 21860
+IF
+	CheckStatLT(LastSummonerOf(Myself),21980,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-21860)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 21980-22200 => 22090
+IF
+	CheckStatLT(LastSummonerOf(Myself),22210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-22090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 22210-22430 => 22320
+IF
+	CheckStatLT(LastSummonerOf(Myself),22440,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-22320)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 22440-22660 => 22550
+IF
+	CheckStatLT(LastSummonerOf(Myself),22670,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-22550)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 22670-22900 => 22780
+IF
+	CheckStatLT(LastSummonerOf(Myself),22910,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-22780)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 22910-23140 => 23020
+IF
+	CheckStatLT(LastSummonerOf(Myself),23150,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-23020)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 23150-23380 => 23270
+IF
+	CheckStatLT(LastSummonerOf(Myself),23390,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-23270)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 23390-23620 => 23510
+IF
+	CheckStatLT(LastSummonerOf(Myself),23630,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-23510)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 23630-23870 => 23750
+IF
+	CheckStatLT(LastSummonerOf(Myself),23880,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-23750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 23880-24120 => 24000
+IF
+	CheckStatLT(LastSummonerOf(Myself),24130,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-24000)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 24130-24370 => 24250
+IF
+	CheckStatLT(LastSummonerOf(Myself),24380,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-24250)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 24380-24620 => 24500
+IF
+	CheckStatLT(LastSummonerOf(Myself),24630,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-24500)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 24630-24880 => 24750
+IF
+	CheckStatLT(LastSummonerOf(Myself),24890,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-24750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 24890-25140 => 25010
+IF
+	CheckStatLT(LastSummonerOf(Myself),25150,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-25010)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 25150-25400 => 25280
+IF
+	CheckStatLT(LastSummonerOf(Myself),25410,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-25280)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 25410-25660 => 25540
+IF
+	CheckStatLT(LastSummonerOf(Myself),25670,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-25540)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 25670-25930 => 25800
+IF
+	CheckStatLT(LastSummonerOf(Myself),25940,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-25800)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 25940-26200 => 26070
+IF
+	CheckStatLT(LastSummonerOf(Myself),26210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-26070)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 26210-26470 => 26340
+IF
+	CheckStatLT(LastSummonerOf(Myself),26480,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-26340)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 26480-26740 => 26610
+IF
+	CheckStatLT(LastSummonerOf(Myself),26750,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-26610)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 26750-27020 => 26880
+IF
+	CheckStatLT(LastSummonerOf(Myself),27030,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-26880)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 27030-27300 => 27170
+IF
+	CheckStatLT(LastSummonerOf(Myself),27310,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-27170)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 27310-27580 => 27450
+IF
+	CheckStatLT(LastSummonerOf(Myself),27590,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-27450)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 27590-27870 => 27730
+IF
+	CheckStatLT(LastSummonerOf(Myself),27880,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-27730)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 27880-28160 => 28020
+IF
+	CheckStatLT(LastSummonerOf(Myself),28170,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-28020)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 28170-28450 => 28310
+IF
+	CheckStatLT(LastSummonerOf(Myself),28460,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-28310)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 28460-28740 => 28600
+IF
+	CheckStatLT(LastSummonerOf(Myself),28750,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-28600)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 28750-29040 => 28890
+IF
+	CheckStatLT(LastSummonerOf(Myself),29050,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-28890)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 29050-29340 => 29200
+IF
+	CheckStatLT(LastSummonerOf(Myself),29350,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-29200)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 29350-29640 => 29500
+IF
+	CheckStatLT(LastSummonerOf(Myself),29650,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-29500)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 29650-29950 => 29800
+IF
+	CheckStatLT(LastSummonerOf(Myself),29960,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-29800)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 29960-30260 => 30110
+IF
+	CheckStatLT(LastSummonerOf(Myself),30270,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-30110)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 30270-30570 => 30420
+IF
+	CheckStatLT(LastSummonerOf(Myself),30580,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-30420)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 30580-30890 => 30730
+IF
+	CheckStatLT(LastSummonerOf(Myself),30900,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-30730)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 30900-31210 => 31050
+IF
+	CheckStatLT(LastSummonerOf(Myself),31220,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-31050)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 31220-31530 => 31380
+IF
+	CheckStatLT(LastSummonerOf(Myself),31540,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-31380)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 31540-31860 => 31700
+IF
+	CheckStatLT(LastSummonerOf(Myself),31870,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-31700)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 31870-32190 => 32030
+IF
+	CheckStatLT(LastSummonerOf(Myself),32200,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-32030)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 32200-32520 => 32360
+IF
+	CheckStatLT(LastSummonerOf(Myself),32530,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-32360)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 32530-32860 => 32690
+IF
+	CheckStatLT(LastSummonerOf(Myself),32870,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-32690)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 32870-33200 => 33030
+IF
+	CheckStatLT(LastSummonerOf(Myself),33210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-33030)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 33210-33540 => 33380
+IF
+	CheckStatLT(LastSummonerOf(Myself),33550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-33380)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 33550-33890 => 33720
+IF
+	CheckStatLT(LastSummonerOf(Myself),33900,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-33720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 33900-34240 => 34070
+IF
+	CheckStatLT(LastSummonerOf(Myself),34250,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-34070)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 34250-34590 => 34420
+IF
+	CheckStatLT(LastSummonerOf(Myself),34600,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-34420)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 34600-34950 => 34770
+IF
+	CheckStatLT(LastSummonerOf(Myself),34960,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-34770)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 34960-35310 => 35130
+IF
+	CheckStatLT(LastSummonerOf(Myself),35320,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-35130)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 35320-35670 => 35500
+IF
+	CheckStatLT(LastSummonerOf(Myself),35680,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-35500)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 35680-36040 => 35860
+IF
+	CheckStatLT(LastSummonerOf(Myself),36050,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-35860)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 36050-36410 => 36230
+IF
+	CheckStatLT(LastSummonerOf(Myself),36420,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-36230)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 36420-36780 => 36600
+IF
+	CheckStatLT(LastSummonerOf(Myself),36790,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-36600)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 36790-37160 => 36970
+IF
+	CheckStatLT(LastSummonerOf(Myself),37170,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-36970)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 37170-37540 => 37360
+IF
+	CheckStatLT(LastSummonerOf(Myself),37550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-37360)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 37550-37930 => 37740
+IF
+	CheckStatLT(LastSummonerOf(Myself),37940,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-37740)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 37940-38320 => 38130
+IF
+	CheckStatLT(LastSummonerOf(Myself),38330,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-38130)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 38330-38710 => 38520
+IF
+	CheckStatLT(LastSummonerOf(Myself),38720,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-38520)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 38720-39110 => 38910
+IF
+	CheckStatLT(LastSummonerOf(Myself),39120,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-38910)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 39120-39510 => 39320
+IF
+	CheckStatLT(LastSummonerOf(Myself),39520,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-39320)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 39520-39920 => 39720
+IF
+	CheckStatLT(LastSummonerOf(Myself),39930,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-39720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 39930-40330 => 40130
+IF
+	CheckStatLT(LastSummonerOf(Myself),40340,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-40130)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 40340-40740 => 40540
+IF
+	CheckStatLT(LastSummonerOf(Myself),40750,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-40540)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 40750-41160 => 40950
+IF
+	CheckStatLT(LastSummonerOf(Myself),41170,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-40950)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 41170-41580 => 41380
+IF
+	CheckStatLT(LastSummonerOf(Myself),41590,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-41380)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 41590-42010 => 41800
+IF
+	CheckStatLT(LastSummonerOf(Myself),42020,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-41800)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 42020-42440 => 42230
+IF
+	CheckStatLT(LastSummonerOf(Myself),42450,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-42230)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 42450-42870 => 42660
+IF
+	CheckStatLT(LastSummonerOf(Myself),42880,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-42660)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 42880-43310 => 43090
+IF
+	CheckStatLT(LastSummonerOf(Myself),43320,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-43090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 43320-43750 => 43540
+IF
+	CheckStatLT(LastSummonerOf(Myself),43760,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-43540)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 43760-44200 => 43980
+IF
+	CheckStatLT(LastSummonerOf(Myself),44210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-43980)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 44210-44650 => 44430
+IF
+	CheckStatLT(LastSummonerOf(Myself),44660,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-44430)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 44660-45110 => 44880
+IF
+	CheckStatLT(LastSummonerOf(Myself),45120,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-44880)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 45120-45570 => 45350
+IF
+	CheckStatLT(LastSummonerOf(Myself),45580,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-45350)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 45580-46040 => 45810
+IF
+	CheckStatLT(LastSummonerOf(Myself),46050,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-45810)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 46050-46510 => 46280
+IF
+	CheckStatLT(LastSummonerOf(Myself),46520,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-46280)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 46520-46990 => 46750
+IF
+	CheckStatLT(LastSummonerOf(Myself),47000,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-46750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 47000-47470 => 47230
+IF
+	CheckStatLT(LastSummonerOf(Myself),47480,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-47230)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 47480-47950 => 47720
+IF
+	CheckStatLT(LastSummonerOf(Myself),47960,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-47720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 47960-48440 => 48200
+IF
+	CheckStatLT(LastSummonerOf(Myself),48450,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-48200)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 48450-48930 => 48690
+IF
+	CheckStatLT(LastSummonerOf(Myself),48940,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-48690)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 48940-49430 => 49180
+IF
+	CheckStatLT(LastSummonerOf(Myself),49440,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-49180)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 49440-49930 => 49690
+IF
+	CheckStatLT(LastSummonerOf(Myself),49940,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-49690)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 49940-50440 => 50190
+IF
+	CheckStatLT(LastSummonerOf(Myself),50450,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-50190)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 50450-50950 => 50700
+IF
+	CheckStatLT(LastSummonerOf(Myself),50960,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-50700)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 50960-51470 => 51210
+IF
+	CheckStatLT(LastSummonerOf(Myself),51480,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-51210)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 51480-51990 => 51740
+IF
+	CheckStatLT(LastSummonerOf(Myself),52000,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-51740)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 52000-52520 => 52260
+IF
+	CheckStatLT(LastSummonerOf(Myself),52530,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-52260)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 52530-53060 => 52790
+IF
+	CheckStatLT(LastSummonerOf(Myself),53070,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-52790)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 53070-53600 => 53340
+IF
+	CheckStatLT(LastSummonerOf(Myself),53610,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-53340)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 53610-54150 => 53880
+IF
+	CheckStatLT(LastSummonerOf(Myself),54160,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-53880)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 54160-54700 => 54430
+IF
+	CheckStatLT(LastSummonerOf(Myself),54710,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-54430)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 54710-55260 => 54980
+IF
+	CheckStatLT(LastSummonerOf(Myself),55270,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-54980)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 55270-55820 => 55550
+IF
+	CheckStatLT(LastSummonerOf(Myself),55830,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-55550)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 55830-56390 => 56110
+IF
+	CheckStatLT(LastSummonerOf(Myself),56400,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-56110)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 56400-56960 => 56680
+IF
+	CheckStatLT(LastSummonerOf(Myself),56970,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-56680)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 56970-57540 => 57250
+IF
+	CheckStatLT(LastSummonerOf(Myself),57550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-57250)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 57550-58130 => 57840
+IF
+	CheckStatLT(LastSummonerOf(Myself),58140,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-57840)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 58140-58720 => 58430
+IF
+	CheckStatLT(LastSummonerOf(Myself),58730,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-58430)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 58730-59320 => 59020
+IF
+	CheckStatLT(LastSummonerOf(Myself),59330,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-59020)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 59330-59920 => 59630
+IF
+	CheckStatLT(LastSummonerOf(Myself),59930,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-59630)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 59930-60530 => 60230
+IF
+	CheckStatLT(LastSummonerOf(Myself),60540,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-60230)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 60540-61150 => 60840
+IF
+	CheckStatLT(LastSummonerOf(Myself),61160,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-60840)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 61160-61770 => 61470
+IF
+	CheckStatLT(LastSummonerOf(Myself),61780,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-61470)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 61780-62400 => 62090
+IF
+	CheckStatLT(LastSummonerOf(Myself),62410,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-62090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 62410-63030 => 62720
+IF
+	CheckStatLT(LastSummonerOf(Myself),63040,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-62720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 63040-63670 => 63360
+IF
+	CheckStatLT(LastSummonerOf(Myself),63680,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-63360)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 63680-64320 => 64000
+IF
+	CheckStatLT(LastSummonerOf(Myself),64330,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-64000)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 64330-64970 => 64650
+IF
+	CheckStatLT(LastSummonerOf(Myself),64980,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-64650)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 64980-65630 => 65300
+IF
+	CheckStatLT(LastSummonerOf(Myself),65640,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-65300)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 65640-66300 => 65970
+IF
+	CheckStatLT(LastSummonerOf(Myself),66310,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-65970)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 66310-66970 => 66640
+IF
+	CheckStatLT(LastSummonerOf(Myself),66980,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-66640)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 66980-67650 => 67310
+IF
+	CheckStatLT(LastSummonerOf(Myself),67660,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-67310)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 67660-68340 => 68000
+IF
+	CheckStatLT(LastSummonerOf(Myself),68350,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-68000)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 68350-69030 => 68690
+IF
+	CheckStatLT(LastSummonerOf(Myself),69040,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-68690)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 69040-69730 => 69390
+IF
+	CheckStatLT(LastSummonerOf(Myself),69740,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-69390)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 69740-70440 => 70090
+IF
+	CheckStatLT(LastSummonerOf(Myself),70450,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-70090)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 70450-71150 => 70800
+IF
+	CheckStatLT(LastSummonerOf(Myself),71160,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-70800)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 71160-71870 => 71520
+IF
+	CheckStatLT(LastSummonerOf(Myself),71880,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-71520)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 71880-72600 => 72240
+IF
+	CheckStatLT(LastSummonerOf(Myself),72610,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-72240)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 72610-73340 => 72970
+IF
+	CheckStatLT(LastSummonerOf(Myself),73350,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-72970)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 73350-74080 => 73720
+IF
+	CheckStatLT(LastSummonerOf(Myself),74090,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-73720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 74090-74830 => 74460
+IF
+	CheckStatLT(LastSummonerOf(Myself),74840,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-74460)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 74840-75590 => 75210
+IF
+	CheckStatLT(LastSummonerOf(Myself),75600,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-75210)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 75600-76360 => 75980
+IF
+	CheckStatLT(LastSummonerOf(Myself),76370,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-75980)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 76370-77130 => 76750
+IF
+	CheckStatLT(LastSummonerOf(Myself),77140,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-76750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 77140-77910 => 77530
+IF
+	CheckStatLT(LastSummonerOf(Myself),77920,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-77530)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 77920-78700 => 78310
+IF
+	CheckStatLT(LastSummonerOf(Myself),78710,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-78310)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 78710-79500 => 79100
+IF
+	CheckStatLT(LastSummonerOf(Myself),79510,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-79100)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 79510-80310 => 79910
+IF
+	CheckStatLT(LastSummonerOf(Myself),80320,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-79910)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 80320-81120 => 80720
+IF
+	CheckStatLT(LastSummonerOf(Myself),81130,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-80720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 81130-81940 => 81540
+IF
+	CheckStatLT(LastSummonerOf(Myself),81950,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-81540)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 81950-82770 => 82360
+IF
+	CheckStatLT(LastSummonerOf(Myself),82780,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-82360)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 82780-83610 => 83190
+IF
+	CheckStatLT(LastSummonerOf(Myself),83620,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-83190)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 83620-84460 => 84040
+IF
+	CheckStatLT(LastSummonerOf(Myself),84470,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-84040)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 84470-85310 => 84890
+IF
+	CheckStatLT(LastSummonerOf(Myself),85320,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-84890)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 85320-86170 => 85750
+IF
+	CheckStatLT(LastSummonerOf(Myself),86180,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-85750)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 86180-87040 => 86610
+IF
+	CheckStatLT(LastSummonerOf(Myself),87050,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-86610)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 87050-87920 => 87490
+IF
+	CheckStatLT(LastSummonerOf(Myself),87930,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-87490)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 87930-88810 => 88370
+IF
+	CheckStatLT(LastSummonerOf(Myself),88820,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-88370)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 88820-89710 => 89260
+IF
+	CheckStatLT(LastSummonerOf(Myself),89720,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-89260)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 89720-90620 => 90170
+IF
+	CheckStatLT(LastSummonerOf(Myself),90630,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-90170)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 90630-91540 => 91080
+IF
+	CheckStatLT(LastSummonerOf(Myself),91550,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-91080)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 91550-92470 => 92010
+IF
+	CheckStatLT(LastSummonerOf(Myself),92480,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-92010)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 92480-93400 => 92940
+IF
+	CheckStatLT(LastSummonerOf(Myself),93410,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-92940)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 93410-94340 => 93880
+IF
+	CheckStatLT(LastSummonerOf(Myself),94350,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-93880)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 94350-95290 => 94820
+IF
+	CheckStatLT(LastSummonerOf(Myself),95300,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-94820)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 95300-96250 => 95780
+IF
+	CheckStatLT(LastSummonerOf(Myself),96260,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-95780)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 96260-97220 => 96740
+IF
+	CheckStatLT(LastSummonerOf(Myself),97230,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-96740)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 97230-98200 => 97720
+IF
+	CheckStatLT(LastSummonerOf(Myself),98210,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-97720)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 98210-99190 => 98700
+IF
+	CheckStatLT(LastSummonerOf(Myself),99200,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-98700)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END
+
+// NPC XP 99200-100190 => 99700
+IF
+	CheckStatLT(LastSummonerOf(Myself),100200,XP)
+THEN
+	RESPONSE #100
+		IncrementGlobal("XPSYNC_GRANT","LOCALS",-99700)
+		ChangeAIScript("xpsgrant",OVERRIDE)
+END

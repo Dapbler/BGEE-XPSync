@@ -1,8 +1,8 @@
 old/*
-xpsync/dualxp/*.baf
-build/template_*class.baf
-xpsync/bands/*.baf
-build/xpsgranx_template.baf
-build/xpsgrapx_template.baf
-build/xps_maix_template.baf
-build/xps_wipx_template.baf
+#xpsync/dualxp/*.baf
+#xpsync_build/template_*class.baf
+#xpsync/bands/*.baf
+#xpsync_build/template_xpsgranx.baf
+#xpsync_build/template_xpsgrapx.baf
+#xpsync_build/template_xps_maix.baf
+#xpsync_build/template_xps_wipx.baf

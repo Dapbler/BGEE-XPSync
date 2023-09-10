@@ -1,0 +1,2015 @@
+
+// Player XP 1000-1010 => 1005
+IF
+	CheckStatLT(Player1,1011,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1005)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1011-1021 => 1016
+IF
+	CheckStatLT(Player1,1022,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1016)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1022-1032 => 1027
+IF
+	CheckStatLT(Player1,1033,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1027)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1033-1043 => 1038
+IF
+	CheckStatLT(Player1,1044,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1038)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1044-1054 => 1049
+IF
+	CheckStatLT(Player1,1055,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1049)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1055-1066 => 1060
+IF
+	CheckStatLT(Player1,1067,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1060)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1067-1078 => 1072
+IF
+	CheckStatLT(Player1,1079,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1072)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1079-1090 => 1084
+IF
+	CheckStatLT(Player1,1091,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1084)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1091-1102 => 1096
+IF
+	CheckStatLT(Player1,1103,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1096)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1103-1114 => 1109
+IF
+	CheckStatLT(Player1,1115,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1109)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1115-1126 => 1121
+IF
+	CheckStatLT(Player1,1127,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1121)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1127-1138 => 1133
+IF
+	CheckStatLT(Player1,1139,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1133)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1139-1150 => 1145
+IF
+	CheckStatLT(Player1,1151,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1145)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1151-1163 => 1157
+IF
+	CheckStatLT(Player1,1164,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1157)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1164-1176 => 1170
+IF
+	CheckStatLT(Player1,1177,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1170)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1177-1189 => 1183
+IF
+	CheckStatLT(Player1,1190,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1183)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1190-1202 => 1196
+IF
+	CheckStatLT(Player1,1203,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1196)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1203-1215 => 1209
+IF
+	CheckStatLT(Player1,1216,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1209)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1216-1228 => 1222
+IF
+	CheckStatLT(Player1,1229,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1222)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1229-1241 => 1235
+IF
+	CheckStatLT(Player1,1242,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1235)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1242-1254 => 1248
+IF
+	CheckStatLT(Player1,1255,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1248)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1255-1268 => 1261
+IF
+	CheckStatLT(Player1,1269,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1261)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1269-1282 => 1275
+IF
+	CheckStatLT(Player1,1283,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1275)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1283-1296 => 1289
+IF
+	CheckStatLT(Player1,1297,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1289)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1297-1310 => 1303
+IF
+	CheckStatLT(Player1,1311,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1303)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1311-1324 => 1318
+IF
+	CheckStatLT(Player1,1325,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1318)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1325-1338 => 1332
+IF
+	CheckStatLT(Player1,1339,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1332)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1339-1352 => 1346
+IF
+	CheckStatLT(Player1,1353,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1346)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1353-1367 => 1360
+IF
+	CheckStatLT(Player1,1368,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1360)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1368-1382 => 1375
+IF
+	CheckStatLT(Player1,1383,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1375)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1383-1397 => 1390
+IF
+	CheckStatLT(Player1,1398,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1390)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1398-1412 => 1405
+IF
+	CheckStatLT(Player1,1413,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1405)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1413-1427 => 1420
+IF
+	CheckStatLT(Player1,1428,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1420)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1428-1442 => 1435
+IF
+	CheckStatLT(Player1,1443,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1435)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1443-1457 => 1450
+IF
+	CheckStatLT(Player1,1458,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1450)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1458-1473 => 1465
+IF
+	CheckStatLT(Player1,1474,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1465)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1474-1489 => 1481
+IF
+	CheckStatLT(Player1,1490,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1481)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1490-1505 => 1497
+IF
+	CheckStatLT(Player1,1506,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1497)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1506-1521 => 1514
+IF
+	CheckStatLT(Player1,1522,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1514)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1522-1537 => 1530
+IF
+	CheckStatLT(Player1,1538,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1530)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1538-1553 => 1546
+IF
+	CheckStatLT(Player1,1554,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1546)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1554-1570 => 1562
+IF
+	CheckStatLT(Player1,1571,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1562)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1571-1587 => 1579
+IF
+	CheckStatLT(Player1,1588,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1579)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1588-1604 => 1596
+IF
+	CheckStatLT(Player1,1605,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1596)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1605-1621 => 1613
+IF
+	CheckStatLT(Player1,1622,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1613)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1622-1638 => 1630
+IF
+	CheckStatLT(Player1,1639,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1630)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1639-1655 => 1647
+IF
+	CheckStatLT(Player1,1656,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1647)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1656-1673 => 1664
+IF
+	CheckStatLT(Player1,1674,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1664)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1674-1691 => 1682
+IF
+	CheckStatLT(Player1,1692,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1682)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1692-1709 => 1700
+IF
+	CheckStatLT(Player1,1710,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1700)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1710-1727 => 1719
+IF
+	CheckStatLT(Player1,1728,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1719)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1728-1745 => 1737
+IF
+	CheckStatLT(Player1,1746,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1737)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1746-1763 => 1755
+IF
+	CheckStatLT(Player1,1764,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1755)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1764-1782 => 1773
+IF
+	CheckStatLT(Player1,1783,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1773)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1783-1801 => 1792
+IF
+	CheckStatLT(Player1,1802,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1792)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1802-1820 => 1811
+IF
+	CheckStatLT(Player1,1821,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1811)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1821-1839 => 1830
+IF
+	CheckStatLT(Player1,1840,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1830)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1840-1858 => 1849
+IF
+	CheckStatLT(Player1,1859,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1849)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1859-1878 => 1868
+IF
+	CheckStatLT(Player1,1879,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1868)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1879-1898 => 1888
+IF
+	CheckStatLT(Player1,1899,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1888)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1899-1918 => 1908
+IF
+	CheckStatLT(Player1,1919,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1908)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1919-1938 => 1929
+IF
+	CheckStatLT(Player1,1939,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1929)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1939-1958 => 1949
+IF
+	CheckStatLT(Player1,1959,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1949)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1959-1979 => 1969
+IF
+	CheckStatLT(Player1,1980,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1969)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 1980-2000 => 1990
+IF
+	CheckStatLT(Player1,2001,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",1990)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2001-2021 => 2011
+IF
+	CheckStatLT(Player1,2022,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2011)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2022-2042 => 2032
+IF
+	CheckStatLT(Player1,2043,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2032)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2043-2063 => 2053
+IF
+	CheckStatLT(Player1,2064,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2053)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2064-2085 => 2074
+IF
+	CheckStatLT(Player1,2086,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2074)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2086-2107 => 2096
+IF
+	CheckStatLT(Player1,2108,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2096)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2108-2129 => 2119
+IF
+	CheckStatLT(Player1,2130,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2119)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2130-2151 => 2141
+IF
+	CheckStatLT(Player1,2152,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2141)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2152-2174 => 2163
+IF
+	CheckStatLT(Player1,2175,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2163)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2175-2197 => 2186
+IF
+	CheckStatLT(Player1,2198,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2186)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2198-2220 => 2209
+IF
+	CheckStatLT(Player1,2221,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2209)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2221-2243 => 2232
+IF
+	CheckStatLT(Player1,2244,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2232)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2244-2266 => 2255
+IF
+	CheckStatLT(Player1,2267,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2255)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2267-2290 => 2278
+IF
+	CheckStatLT(Player1,2291,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2278)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2291-2314 => 2302
+IF
+	CheckStatLT(Player1,2315,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2302)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2315-2338 => 2327
+IF
+	CheckStatLT(Player1,2339,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2327)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2339-2362 => 2351
+IF
+	CheckStatLT(Player1,2363,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2351)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2363-2387 => 2375
+IF
+	CheckStatLT(Player1,2388,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2375)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2388-2412 => 2400
+IF
+	CheckStatLT(Player1,2413,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2400)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2413-2437 => 2425
+IF
+	CheckStatLT(Player1,2438,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2425)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2438-2462 => 2450
+IF
+	CheckStatLT(Player1,2463,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2450)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2463-2488 => 2475
+IF
+	CheckStatLT(Player1,2489,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2475)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2489-2514 => 2501
+IF
+	CheckStatLT(Player1,2515,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2501)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2515-2540 => 2528
+IF
+	CheckStatLT(Player1,2541,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2528)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2541-2566 => 2554
+IF
+	CheckStatLT(Player1,2567,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2554)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2567-2593 => 2580
+IF
+	CheckStatLT(Player1,2594,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2580)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2594-2620 => 2607
+IF
+	CheckStatLT(Player1,2621,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2607)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2621-2647 => 2634
+IF
+	CheckStatLT(Player1,2648,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2634)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2648-2674 => 2661
+IF
+	CheckStatLT(Player1,2675,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2661)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2675-2702 => 2688
+IF
+	CheckStatLT(Player1,2703,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2688)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2703-2730 => 2717
+IF
+	CheckStatLT(Player1,2731,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2717)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2731-2758 => 2745
+IF
+	CheckStatLT(Player1,2759,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2745)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2759-2787 => 2773
+IF
+	CheckStatLT(Player1,2788,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2773)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2788-2816 => 2802
+IF
+	CheckStatLT(Player1,2817,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2802)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2817-2845 => 2831
+IF
+	CheckStatLT(Player1,2846,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2831)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2846-2874 => 2860
+IF
+	CheckStatLT(Player1,2875,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2860)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2875-2904 => 2889
+IF
+	CheckStatLT(Player1,2905,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2889)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2905-2934 => 2920
+IF
+	CheckStatLT(Player1,2935,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2920)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2935-2964 => 2950
+IF
+	CheckStatLT(Player1,2965,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2950)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2965-2995 => 2980
+IF
+	CheckStatLT(Player1,2996,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",2980)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 2996-3026 => 3011
+IF
+	CheckStatLT(Player1,3027,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3011)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3027-3057 => 3042
+IF
+	CheckStatLT(Player1,3058,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3042)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3058-3089 => 3073
+IF
+	CheckStatLT(Player1,3090,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3073)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3090-3121 => 3105
+IF
+	CheckStatLT(Player1,3122,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3105)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3122-3153 => 3138
+IF
+	CheckStatLT(Player1,3154,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3138)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3154-3186 => 3170
+IF
+	CheckStatLT(Player1,3187,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3170)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3187-3219 => 3203
+IF
+	CheckStatLT(Player1,3220,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3203)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3220-3252 => 3236
+IF
+	CheckStatLT(Player1,3253,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3236)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3253-3286 => 3269
+IF
+	CheckStatLT(Player1,3287,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3269)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3287-3320 => 3303
+IF
+	CheckStatLT(Player1,3321,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3303)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3321-3354 => 3338
+IF
+	CheckStatLT(Player1,3355,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3338)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3355-3389 => 3372
+IF
+	CheckStatLT(Player1,3390,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3372)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3390-3424 => 3407
+IF
+	CheckStatLT(Player1,3425,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3407)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3425-3459 => 3442
+IF
+	CheckStatLT(Player1,3460,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3442)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3460-3495 => 3477
+IF
+	CheckStatLT(Player1,3496,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3477)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3496-3531 => 3513
+IF
+	CheckStatLT(Player1,3532,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3513)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3532-3567 => 3550
+IF
+	CheckStatLT(Player1,3568,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3550)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3568-3604 => 3586
+IF
+	CheckStatLT(Player1,3605,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3586)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3605-3641 => 3623
+IF
+	CheckStatLT(Player1,3642,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3623)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3642-3678 => 3660
+IF
+	CheckStatLT(Player1,3679,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3660)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3679-3716 => 3697
+IF
+	CheckStatLT(Player1,3717,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3697)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3717-3754 => 3736
+IF
+	CheckStatLT(Player1,3755,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3736)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3755-3793 => 3774
+IF
+	CheckStatLT(Player1,3794,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3774)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3794-3832 => 3813
+IF
+	CheckStatLT(Player1,3833,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3813)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3833-3871 => 3852
+IF
+	CheckStatLT(Player1,3872,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3852)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3872-3911 => 3891
+IF
+	CheckStatLT(Player1,3912,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3891)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3912-3951 => 3932
+IF
+	CheckStatLT(Player1,3952,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3932)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3952-3992 => 3972
+IF
+	CheckStatLT(Player1,3993,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",3972)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 3993-4033 => 4013
+IF
+	CheckStatLT(Player1,4034,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4013)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4034-4074 => 4054
+IF
+	CheckStatLT(Player1,4075,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4054)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4075-4116 => 4095
+IF
+	CheckStatLT(Player1,4117,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4095)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4117-4158 => 4138
+IF
+	CheckStatLT(Player1,4159,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4138)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4159-4201 => 4180
+IF
+	CheckStatLT(Player1,4202,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4180)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4202-4244 => 4223
+IF
+	CheckStatLT(Player1,4245,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4223)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4245-4287 => 4266
+IF
+	CheckStatLT(Player1,4288,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4266)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4288-4331 => 4309
+IF
+	CheckStatLT(Player1,4332,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4309)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4332-4375 => 4354
+IF
+	CheckStatLT(Player1,4376,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4354)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4376-4420 => 4398
+IF
+	CheckStatLT(Player1,4421,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4398)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4421-4465 => 4443
+IF
+	CheckStatLT(Player1,4466,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4443)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4466-4511 => 4488
+IF
+	CheckStatLT(Player1,4512,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4488)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4512-4557 => 4535
+IF
+	CheckStatLT(Player1,4558,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4535)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4558-4604 => 4581
+IF
+	CheckStatLT(Player1,4605,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4581)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4605-4651 => 4628
+IF
+	CheckStatLT(Player1,4652,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4628)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4652-4699 => 4675
+IF
+	CheckStatLT(Player1,4700,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4675)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4700-4747 => 4723
+IF
+	CheckStatLT(Player1,4748,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4723)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4748-4795 => 4772
+IF
+	CheckStatLT(Player1,4796,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4772)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4796-4844 => 4820
+IF
+	CheckStatLT(Player1,4845,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4820)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4845-4893 => 4869
+IF
+	CheckStatLT(Player1,4894,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4869)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4894-4943 => 4918
+IF
+	CheckStatLT(Player1,4944,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4918)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4944-4993 => 4969
+IF
+	CheckStatLT(Player1,4994,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",4969)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 4994-5044 => 5019
+IF
+	CheckStatLT(Player1,5045,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5019)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5045-5095 => 5070
+IF
+	CheckStatLT(Player1,5096,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5070)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5096-5147 => 5121
+IF
+	CheckStatLT(Player1,5148,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5121)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5148-5199 => 5174
+IF
+	CheckStatLT(Player1,5200,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5174)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5200-5252 => 5226
+IF
+	CheckStatLT(Player1,5253,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5226)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5253-5306 => 5279
+IF
+	CheckStatLT(Player1,5307,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5279)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5307-5360 => 5334
+IF
+	CheckStatLT(Player1,5361,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5334)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5361-5415 => 5388
+IF
+	CheckStatLT(Player1,5416,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5388)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5416-5470 => 5443
+IF
+	CheckStatLT(Player1,5471,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5443)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5471-5526 => 5498
+IF
+	CheckStatLT(Player1,5527,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5498)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5527-5582 => 5555
+IF
+	CheckStatLT(Player1,5583,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5555)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5583-5639 => 5611
+IF
+	CheckStatLT(Player1,5640,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5611)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5640-5696 => 5668
+IF
+	CheckStatLT(Player1,5697,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5668)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5697-5754 => 5725
+IF
+	CheckStatLT(Player1,5755,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5725)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5755-5813 => 5784
+IF
+	CheckStatLT(Player1,5814,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5784)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5814-5872 => 5843
+IF
+	CheckStatLT(Player1,5873,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5843)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5873-5932 => 5902
+IF
+	CheckStatLT(Player1,5933,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5902)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5933-5992 => 5963
+IF
+	CheckStatLT(Player1,5993,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",5963)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 5993-6053 => 6023
+IF
+	CheckStatLT(Player1,6054,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6023)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6054-6115 => 6084
+IF
+	CheckStatLT(Player1,6116,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6084)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6116-6177 => 6147
+IF
+	CheckStatLT(Player1,6178,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6147)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6178-6240 => 6209
+IF
+	CheckStatLT(Player1,6241,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6209)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6241-6303 => 6272
+IF
+	CheckStatLT(Player1,6304,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6272)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6304-6367 => 6336
+IF
+	CheckStatLT(Player1,6368,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6336)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6368-6432 => 6400
+IF
+	CheckStatLT(Player1,6433,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6400)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6433-6497 => 6465
+IF
+	CheckStatLT(Player1,6498,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6465)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6498-6563 => 6530
+IF
+	CheckStatLT(Player1,6564,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6530)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6564-6630 => 6597
+IF
+	CheckStatLT(Player1,6631,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6597)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6631-6697 => 6664
+IF
+	CheckStatLT(Player1,6698,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6664)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6698-6765 => 6731
+IF
+	CheckStatLT(Player1,6766,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6731)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6766-6834 => 6800
+IF
+	CheckStatLT(Player1,6835,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6800)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6835-6903 => 6869
+IF
+	CheckStatLT(Player1,6904,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6869)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6904-6973 => 6939
+IF
+	CheckStatLT(Player1,6974,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",6939)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 6974-7044 => 7009
+IF
+	CheckStatLT(Player1,7045,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7009)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7045-7115 => 7080
+IF
+	CheckStatLT(Player1,7116,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7080)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7116-7187 => 7152
+IF
+	CheckStatLT(Player1,7188,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7152)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7188-7260 => 7224
+IF
+	CheckStatLT(Player1,7261,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7224)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7261-7334 => 7297
+IF
+	CheckStatLT(Player1,7335,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7297)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7335-7408 => 7372
+IF
+	CheckStatLT(Player1,7409,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7372)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7409-7483 => 7446
+IF
+	CheckStatLT(Player1,7484,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7446)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7484-7559 => 7521
+IF
+	CheckStatLT(Player1,7560,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7521)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7560-7636 => 7598
+IF
+	CheckStatLT(Player1,7637,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7598)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7637-7713 => 7675
+IF
+	CheckStatLT(Player1,7714,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7675)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7714-7791 => 7753
+IF
+	CheckStatLT(Player1,7792,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7753)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7792-7870 => 7831
+IF
+	CheckStatLT(Player1,7871,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7831)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7871-7950 => 7910
+IF
+	CheckStatLT(Player1,7951,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7910)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 7951-8031 => 7991
+IF
+	CheckStatLT(Player1,8032,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",7991)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8032-8112 => 8072
+IF
+	CheckStatLT(Player1,8113,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8072)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8113-8194 => 8154
+IF
+	CheckStatLT(Player1,8195,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8154)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8195-8277 => 8236
+IF
+	CheckStatLT(Player1,8278,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8236)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8278-8361 => 8319
+IF
+	CheckStatLT(Player1,8362,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8319)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8362-8446 => 8404
+IF
+	CheckStatLT(Player1,8447,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8404)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8447-8531 => 8489
+IF
+	CheckStatLT(Player1,8532,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8489)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8532-8617 => 8575
+IF
+	CheckStatLT(Player1,8618,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8575)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8618-8704 => 8661
+IF
+	CheckStatLT(Player1,8705,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8661)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8705-8792 => 8749
+IF
+	CheckStatLT(Player1,8793,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8749)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8793-8881 => 8837
+IF
+	CheckStatLT(Player1,8882,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8837)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8882-8971 => 8926
+IF
+	CheckStatLT(Player1,8972,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",8926)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 8972-9062 => 9017
+IF
+	CheckStatLT(Player1,9063,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9017)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9063-9154 => 9108
+IF
+	CheckStatLT(Player1,9155,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9108)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9155-9247 => 9201
+IF
+	CheckStatLT(Player1,9248,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9201)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9248-9340 => 9294
+IF
+	CheckStatLT(Player1,9341,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9294)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9341-9434 => 9388
+IF
+	CheckStatLT(Player1,9435,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9388)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9435-9529 => 9482
+IF
+	CheckStatLT(Player1,9530,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9482)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9530-9625 => 9578
+IF
+	CheckStatLT(Player1,9626,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9578)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9626-9722 => 9674
+IF
+	CheckStatLT(Player1,9723,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9674)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9723-9820 => 9772
+IF
+	CheckStatLT(Player1,9821,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9772)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9821-9919 => 9870
+IF
+	CheckStatLT(Player1,9920,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9870)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// Player XP 9920-10019 => 9970
+IF
+	CheckStatLT(Player1,10020,XP)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_GRANT","LOCALS",9970)
+		ChangeAIScript("xps_pd",OVERRIDE)
+END
+
+// We've hit the end - player XP is beyond our test range (BUG)
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("xps_pd",OVERRIDE)
+END

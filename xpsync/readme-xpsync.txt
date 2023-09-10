@@ -83,7 +83,9 @@ you suspect it's broken dialogues and want to remove it to test.
 
 1. Virus scan the XPSYNC zip (really, you should be in this habit)
 
-2. Unzip the XPSync zip into the game installation location
+2. Unzip the XPSync zip
+   Put the xpsync folder from the zip into your game folder (same level as "override")
+   (If on Windows: Virus scan and then put the setup-xpsync.exe in your game folder as well.)
 
 3a. Windows: run setup-xpsync.exe (ie. <your game path>\setup-xpsync.exe
 3b Linux: Install weidu for linux (from weidu.org)
@@ -92,7 +94,7 @@ you suspect it's broken dialogues and want to remove it to test.
 3c OS X: ????
 
 Note - if this mod is years old you may want to replace setup-xpsync.exe with
-a newer version of weinstall. Pick one up from weidu.org
+a newer version of weidu. Pick one up from weidu.org
 
 =======================================
 * Questions, Issues, fixes and workarounds
@@ -113,19 +115,21 @@ A: If you use weidu to uninstall the mod it will remove the dialogue hooks,
    innate ability (XPSTEAM) if you use it to load a save after you've
    uninstalled the XPSync mod.
 
-Q: Why is the sync inaccurate at the start of the game?
-A: To avoid having a bunch of long scripts dealing with very small XP totals:
+Q: What is the accuracy of the sync?
+A: To avoid having a bunch of long scripts dealing with very small or large XP totals:
    1) All NPCs have a minimum of about 1000 XP,
    2) Khalid and Jaheira, as seasoned adventurers, have a minimum of about 
       4000 XP (WOW!),
    3) The sync won't do any adjustment of less than 100 XP and
       adjustments of less than 1000 are relatively coarse
       (up to 5%, which is 50 XP error!)
+   4) NPCs will be boosted up to a maximum of about 100 million XP
    
    Once the main PC is above 1000 (or 4000 for Khalid and Jaheira) the 
-   Train Party ability will bring party XP in line with the PC, within 
-   the regular error margins (the greater of 100 XP and about half 
-   a percent).
+   Train Party ability will bring party XP in line with the PC.
+   
+   For the range of 1000 - 100 million XP normally the scripts will be 
+   accurate to about half a percent.
 
 Q: Where is my training montage!
 A: The "Training montage" (okay... it's an animation and a screen fade...)
