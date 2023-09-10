@@ -110,7 +110,7 @@ Note - if this mod is years old you may want to replace setup-xpsync.exe with
 a newer version of weidu. Pick one up from weidu.org
 
 =======================================
-* Questions, Issues, fixes and workarounds
+* Questions, Bugs and Workarounds
 =======================================
 
 Q: Do I need to start a new game to use XPSync?
@@ -166,6 +166,20 @@ A: The dialogue patching tries to copy, decompile, search, patch and
    it may take a while.
    The alternative is curating short lists of files to patch for each potential
    game/mod install - which I'm not confident I'd maintain long term.
+
+== ISSUES / BUGS ==
+
+* XP Sync can die during XP matching (killing our squirrel mascot!)
+
+Sometimes (I've noticed in BG2EE) the sync process dies part way through
+and the innocent woodland spirits guiding the process vanish.
+As far as I can tell it's not a script issue but may be some sort of memory
+pressure culling.
+If it happens either use the Train Party power to resync everyone or apply
+the XPSync AI script to the affected character and press S to retry.
+
+If it is memory pressure a workarond may be to change the Memory Level option
+Baldur.lua - but that's a wild guess and yet to test.
 
 =======================================
 * License

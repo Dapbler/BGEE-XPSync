@@ -32,19 +32,18 @@ COPY_EXISTING_REGEXP + ~.*.dlg~ ~xpsync/tmpdlg~
       SPRINT $DKL("%DKI%") "%SOURCE_FILE%" // Dialog Keep List
       // For JoinParty acting on Myself we look for JP() NOT followed by 
       // a bracket
-      REPLACE_TEXTUALLY ~\bJoinParty()$~ ~ReallyForceSpellRES("xpsmntr",Myself)
-JoinParty()
-~
       // Using XPModSpell as a placeholder for the quoted spell name so I can use it
       // inside quoted strings.
+      REPLACE_TEXTUALLY ~\bJoinParty()$~ ~ReallyForceSpellRES(XPModSpell,Myself)
+JoinParty()
+~
       REPLACE_TEXTUALLY "\bJoinParty()~" "ReallyForceSpellRES(XPModSpell,Myself)
 JoinParty()~"
-
       // Now for the Action Override version
-      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinParty())~ ~ActionOverride(\1,ReallyForceSpellRES("xpsmntr",Myself))
+      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinParty())~ ~ActionOverride(\1,ReallyForceSpellRES(XPModSpell,Myself))
 ActionOverride(\1,JoinParty())~
       // And JoinPartyOverride() - infrequently in AO calls for new BGEE NPCs
-      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinPartyOverride())~ ~ActionOverride(\1,ReallyForceSpellRES("xpsmntr",Myself))
+      REPLACE_TEXTUALLY ~\bActionOverride(\(.+\),JoinPartyOverride())~ ~ActionOverride(\1,ReallyForceSpellRES(XPModSpell,Myself))
 ActionOverride(\1,JoinPartyOverride())~
       // Replace the placeholders with final values
       REPLACE_TEXTUALLY ~XPModSpell~ ~"xpsmntr"~
@@ -64,5 +63,5 @@ PRINT ~Patched %DKI% / %DI% dialogue files.~
 // Throw away the unpatched temp files (the originals are still
 // either in override or the original BIFs )
 ACTION_PHP_EACH DRL AS IDX => F BEGIN
-  //DELETE + ~xpsync/tmpdlg/%F%~
+  DELETE + ~xpsync/tmpdlg/%F%~
 END
