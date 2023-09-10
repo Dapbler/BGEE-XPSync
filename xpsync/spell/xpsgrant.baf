@@ -32,19 +32,6 @@ THEN
 END
 
 IF
-    // If grant is less than zero and we've already done 
-    // the hard wipe for very high NPC XP then we're done
-    GlobalLT("XPSYNC_GRANT","LOCALS",0)
-    Global("XPSYNC_HIGHXP_WIPE","LOCALS",1)
-THEN
-    RESPONSE #100
-        // Don't sweat the small stuff
-        DestroySelf()
-        AddXpObject(LastSummonerOf(Myself),0)
-
-END
-
-IF
     GlobalLT("XPSYNC_GRANT","LOCALS",-100000000)
 THEN
     RESPONSE #100

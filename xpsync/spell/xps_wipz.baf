@@ -1,9 +1,10 @@
+
 // We're here because the NPC has XP above our range but the
 // PC has less than 100M
 
-// Progressively wipe XP down hard
-// We don't know how many wipes above 128M will be done
-// so no step cap on this one
+// Progressively wipe XP down until
+// we're back in the band we expect and it's in the ballpark
+// of our grant
 
 IF
 	Global("XPSYNC_HIGHXP_WIPE","LOCALS",0)
@@ -15,159 +16,184 @@ THEN
 		Continue()
 END
 
+
 IF
-	CheckStatGT(LastSummonerOf(Myself),127999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",1024000000)
+	CheckStatGT(LastSummonerOf(Myself),1024000000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-1024000000)
+END
+
+IF
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",512000000)
+	CheckStatGT(LastSummonerOf(Myself),512000000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-512000000)
+END
+
+IF
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",256000000)
+	CheckStatGT(LastSummonerOf(Myself),256000000,XP)
+THEN
+	RESPONSE #100
+		AddXpObject(LastSummonerOf(Myself),-256000000)
+END
+
+IF
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",128000000)
+	CheckStatGT(LastSummonerOf(Myself),128000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-128000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),63999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",64000000)
+	CheckStatGT(LastSummonerOf(Myself),64000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-64000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),31999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",32000000)
+	CheckStatGT(LastSummonerOf(Myself),32000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-32000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),15999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",16000000)
+	CheckStatGT(LastSummonerOf(Myself),16000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-16000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),7999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",8000000)
+	CheckStatGT(LastSummonerOf(Myself),8000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-8000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),3999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",4000000)
+	CheckStatGT(LastSummonerOf(Myself),4000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-4000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),1999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",2000000)
+	CheckStatGT(LastSummonerOf(Myself),2000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-2000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),999999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",1000000)
+	CheckStatGT(LastSummonerOf(Myself),1000000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-1000000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),499999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",500000)
+	CheckStatGT(LastSummonerOf(Myself),500000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-500000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),249999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",250000)
+	CheckStatGT(LastSummonerOf(Myself),250000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-250000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),124999,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",125000)
+	CheckStatGT(LastSummonerOf(Myself),125000,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-125000)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),62499,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",62500)
+	CheckStatGT(LastSummonerOf(Myself),62500,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-62500)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),31199,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",31200)
+	CheckStatGT(LastSummonerOf(Myself),31200,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-31200)
 END
 
 IF
-	CheckStatGT(LastSummonerOf(Myself),15599,XP)
+	OR(2)
+		CheckStatGT(LastSummonerOf(Myself),90000000,XP)
+		GlobalLT("XPSYNC_GRANT","LOCALS",15600)
+	CheckStatGT(LastSummonerOf(Myself),15600,XP)
 THEN
 	RESPONSE #100
 		AddXpObject(LastSummonerOf(Myself),-15600)
 END
 
-IF
-	CheckStatGT(LastSummonerOf(Myself),7799,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-7800)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),3899,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-3900)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),1949,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-1950)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),974,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-975)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),487,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-488)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),243,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-244)
-END
-
-IF
-	CheckStatGT(LastSummonerOf(Myself),121,XP)
-THEN
-	RESPONSE #100
-		AddXpObject(LastSummonerOf(Myself),-122)
-END
-
-// We've hit the end without hitting the wipe cap
-// Reset
+// XP now down to the ballpark of the grant
+// Retry regular band based wipe
 IF
 	True()
 THEN
 	RESPONSE #100
-		SetGlobal("XPSYNC_HIGHXP_WIPE","LOCALS",1) // Flag to skip wipe later
-		ChangeAIScript("xpsgrant",OVERRIDE)
+		ChangeAIScript("xps_wipe",OVERRIDE)
+		SetGlobal("XPSYNC_HIGHXP_WIPE","LOCALS",0)
 END
+

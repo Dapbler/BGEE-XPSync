@@ -4,7 +4,9 @@ eXPerience SYNC
 This mod helps synchronize the experience of NPCs with the PC, removing the
 penalty for switching between companions during the game to see their companion quests.
 
-It has a few modes of operation:
+It's a modest quality of life cheat.
+
+The XP matching has a few modes of operation:
 
 1) Using the "Train Party" special ability granted to the PC lets them 
    synchronise all NPCs once a day
@@ -33,9 +35,8 @@ table changes.
 
 50,000 lines of code - when other XP matching scripts only give you hundreds!
 
-( ^ Excluding dualed NPCs with very high level original classes exceeding the PC.
-This should be rare and I couldn't justify another 12K lines of script for it
-and instead used something accurate but noisy. )
+( ^ Couple of exceptions - NPCs with XP > 100M or who are dual classed with a
+high original class level may get a noisy XP flattening. )
 
 ======================================
 * Compatibility
@@ -45,10 +46,10 @@ This uses some new BG(2)EE triggers that make finding dual class XP much simpler
 so won't work in the original games.
 
 So far I've tried it on BGEE, and BG2EE. If it seems appropriate for ther IE EE
-games I'll look to add support as I play them.
+games I'll look to add support if/when I play them.
 
 XPSync only handles dual class costing for stock classes. If characters have
-mod classes as their original dual class the XP for that is not used for
+mod classes as their original class the XP for that is (probably) not used for
 counting XP.
 
 =======================================
@@ -79,19 +80,31 @@ you suspect it's broken dialogues and want to remove it to test.
 =======================================
 * Installation
 =======================================
-0. Download the XPSYNC zip
+0. Prelare your BG(2)EE for modding
+   
+   BGEE: If you have BGEE with Siege of Dragonspear you will need
+   to unpack the files with a tool like modmerge.
+
+   LINUX: Depending on filesystem and if you're running the native version 
+   or windows via wine you'll need to do some fiddling to handle mixed case. 
+   I run via wine and have to prepare the install with Weidu's included 
+   tolower utility before installing mods.
+   All the files in xpsync are already in lower case.
 
 1. Virus scan the XPSYNC zip (really, you should be in this habit)
 
 2. Unzip the XPSync zip
-   Put the xpsync folder from the zip into your game folder (same level as "override")
-   (If on Windows: Virus scan and then put the setup-xpsync.exe in your game folder as well.)
+   Put the xpsync folder from the zip into your game folder (same level as
+   the "override" folder)
+
+   (If on Windows: Virus scan and then put the setup-xpsync.exe in your 
+   game folder as well. ALWAYS virus scan random things downloaded from
+   the internet.)
 
 3a. Windows: run setup-xpsync.exe (ie. <your game path>\setup-xpsync.exe
 3b Linux: Install weidu for linux (from weidu.org)
 	cd <game directory>
 	weinstall xpsync
-3c OS X: ????
 
 Note - if this mod is years old you may want to replace setup-xpsync.exe with
 a newer version of weidu. Pick one up from weidu.org
@@ -115,21 +128,29 @@ A: If you use weidu to uninstall the mod it will remove the dialogue hooks,
    innate ability (XPSTEAM) if you use it to load a save after you've
    uninstalled the XPSync mod.
 
+Q: How EXPERIMENTAL is the second dialogue component?
+A: It works and I'd be surprised if it causes any trouble.
+   There could be mod added dialogue that has weird content that I hadn't 
+   considered - if you come across anything odd that's fixed by uninstalling 
+   XPSync please let me know.
+
 Q: What is the accuracy of the sync?
-A: To avoid having a bunch of long scripts dealing with very small or large XP totals:
+A: For the range of 1,000 to 100,000,000 XP the scripts will usually be 
+   accurate to about half a percent.
+
+   To avoid having a bunch of long scripts dealing with very small or large 
+   XP totals:
    1) All NPCs have a minimum of about 1000 XP,
    2) Khalid and Jaheira, as seasoned adventurers, have a minimum of about 
       4000 XP (WOW!),
    3) The sync won't do any adjustment of less than 100 XP and
-      adjustments of less than 1000 are relatively coarse
-      (up to 5%, which is 50 XP error!)
+      adjustments of less than 1000 XP are relatively coarse
+      (up to 5% error, could be +/- 50 XP!)
    4) NPCs will be boosted up to a maximum of about 100 million XP
    
-   Once the main PC is above 1000 (or 4000 for Khalid and Jaheira) the 
-   Train Party ability will bring party XP in line with the PC.
-   
-   For the range of 1000 - 100 million XP normally the scripts will be 
-   accurate to about half a percent.
+   On the low end once the main PC is above 1000 (or 4000 for Khalid and 
+   Jaheira) using the Train Party ability will bring party XP in line with
+   the PC.
 
 Q: Where is my training montage!
 A: The "Training montage" (okay... it's an animation and a screen fade...)
@@ -167,7 +188,7 @@ Creatures are based on the core BGEE Squirrel.
 Spells are derivatives of the core BGEE Cure Light Wounds.
 
 Credit goes to avenger77 for the A7 Global Script Extender (taken from
-the Tweaks Anthonlogy)
+the Tweaks Anthology)
 The Level 1 NPCs developers wrote the the original dialogue insertion code,
 that guided me in my implementation and deserve credit for making a mod 
 so wonderful that I was inspired to write an earlier (very slow, 
@@ -185,7 +206,7 @@ Near Infinity
 VS Code
 BG Forge MLS
 Git (oh, how did I live without you, Git?)
-Python3
+Python 3
 Sed
 
 TODO: Track down author lists for the above tools

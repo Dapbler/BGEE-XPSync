@@ -67,6 +67,7 @@ cat template_nclass.baf | sed 's/CLASSNAME/SHAMAN/' | sed 's/CLSCAT/PRIEST/' > .
 # Build the XP wipe script template
 python3 build_xpswipe0.py > ../xpsync/bands/xps_wip0.baf
 python3 build_xpswipe.py > template_xps_wipx.baf
+python3 build_xps_wipz.py > ../xpsync/spell/xps_wipz.baf
 # Build power of ten wipe scripts up to 100M
 cat template_xps_wipx.baf | sed 's/POW//g' > ../xpsync/bands/xps_wip3.baf
 cat template_xps_wipx.baf | sed 's/POW/0/g' > ../xpsync/bands/xps_wip4.baf
