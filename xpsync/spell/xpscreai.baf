@@ -5,11 +5,9 @@
 
 IF
 	// Debug messages:
-	False()
-	//True()
+	Global("XPSYNC_DEBUG","GLOBAL",1)
 THEN
 	RESPONSE #100
-		SetGlobal("XPSYNC_DEBUG","GLOBAL",1)
 		DisplayString(Myself,540001)
 		Continue()
 END

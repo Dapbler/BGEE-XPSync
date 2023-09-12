@@ -46,8 +46,10 @@ REPLACE ~520003~ @520003 // Set class history: Fighter
 REPLACE ~520004~ @520004 // Set class history: Mage
 REPLACE ~520005~ @520005 // Set class history: Ranger
 REPLACE ~520006~ @520006 // Set class history: Thief
-REPLACE ~520100~ @520100 // Set option: humans could multi-class
-REPLACE ~520101~ @520101 // Set option: humans NEVER multi-class
+REPLACE ~520100~ @520100 // Animations DISABLED
+REPLACE ~520101~ @520101 // Animations enabled
+REPLACE ~520110~ @520110 // Debug off
+REPLACE ~520111~ @520111 // Debug on
 REPLACE ~530000~ @530000 // Sync trigger message
 REPLACE ~530003~ @530003 // Sync Party trigger message
 COMPILE ~override/xps_conf.baf~

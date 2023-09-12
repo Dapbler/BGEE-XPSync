@@ -38,6 +38,9 @@
 // Animation states
 @520100 = ~\[ XP Training animation: ON \]~
 @520101 = ~\[ XP Training animation: OFF \]~
+// Debug states
+@520110 = ~\[ Debug messages: OFF \]~
+@520111 = ~\[ Debug messages: ON, Rested PC. \]~
 // Syncing notices
 @530000 = ~\[ Matching experience to <CHARNAME> \]~ // Used in xpconfig.baf
 @530001 = ~\[ Matching experience to <CHARNAME> (requires Party AI enabled) \]~ // Used in fjxpmooc.baf

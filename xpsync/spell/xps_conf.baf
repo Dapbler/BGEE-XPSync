@@ -1,7 +1,10 @@
 // Sync/Match - If the PC is selected then sync the whole party!
 IF
 	Hotkey(S)
+	!Exists([EVILCUTOFF])
+	!ActuallyInCombat()
 	InPartySlot(Myself,0) // The PC
+	Global("XPSYNC_DEBUG","GLOBAL",0)
 THEN
 	RESPONSE #100
 		DisplayString(Myself,530003) // Display syncing message - Matching Party experience to <CHARNAME>
@@ -16,9 +19,24 @@ THEN
 		ActionOverride(Player6,ReallyForceSpellRES("XPSMNTR",Myself))
 END
 
+IF
+	Hotkey(S)
+	!Exists([EVILCUTOFF])
+	!ActuallyInCombat()
+	InPartySlot(Myself,0) // The PC
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+THEN
+	RESPONSE #100
+		// If we're debugging use the team spell instead
+		DisplayString(Myself,530003) // Display syncing message - Matching Party experience to <CHARNAME>
+		ReallyForceSpellRES("XPSTEAM",Myself)
+END
+
 // Sync/Match - only the selected NPC
 IF
 	Hotkey(S)
+	!Exists([EVILCUTOFF])
+	!ActuallyInCombat()
 	!InPartySlot(Myself,0)
 THEN
 	RESPONSE #100
@@ -51,4 +69,26 @@ THEN
 		DisplayString(Myself,520101) // XP Training animation: OFF
 		SetGlobal("XPSYNC_ANIMATIONS_FADED","GLOBAL",0)
 		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",0)
+END
+
+// Debug toggle
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",0)
+	Hotkey(B)
+	!Exists([EVILCUTOFF])
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_DEBUG","GLOBAL",1)
+		DisplayString(Myself,520111) // Debug toggle on
+		ActionOverride(Player1,Rest()) // Rest to recover the special ability
+END
+
+IF
+	Global("XPSYNC_DEBUG","GLOBAL",1)
+	Hotkey(B)
+THEN
+	RESPONSE #100
+		SetGlobal("XPSYNC_DEBUG","GLOBAL",0)
+		DisplayString(Myself,520110) // Debug toggle off
 END

@@ -7,6 +7,7 @@ THEN
 		//Wait(1)
 		// Set all NPCs to the sync AI script (via Wise Squirrel)
 		SetGlobal("XPSYNC_ANIMATIONS_SHOW","GLOBAL",1)
+		SmallWait(1)
 		ActionOverride(Player2,ReallyForceSpellRES("XPSMNTR",Myself))
 		SmallWait(2) // Let the first be a couple of AI cycles ahead
 		ActionOverride(Player3,ReallyForceSpellRES("XPSMNTR",Myself))
