@@ -19,6 +19,7 @@
  If done by an NPC it will sync that NPC.
  If done by the PC it will sync *all* party members.
  Hotkey D: Toggle training animation.
+ Hotkey B: Toggle debug messages.
  ~
 ///////////////////////////////////////////////////////
 // In game feedback messages

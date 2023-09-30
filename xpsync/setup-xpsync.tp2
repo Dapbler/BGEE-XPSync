@@ -45,16 +45,6 @@ INCLUDE ~xpsync/include/xpsync_build.tph~
 // getting them to install via glob so it's all ls and sed!
 INCLUDE ~xpsync/include/xpsync_bands_build.tph~
 
-// Extend global scripts to add Innate PC spell
-// Credit to argent77 (taken from cdtweaks)
-INCLUDE ~xpsync/include/a7_global_script_extender.tph~
-
-// Insert some global script code to grant the new innate ability
-LAUNCH_ACTION_FUNCTION A7_ADD_GLOBAL_SCRIPT
-  INT_VAR extend_top = 1
-  STR_VAR script_file = ~xpsync/spell/add_pc_team_spell.baf~
-END
-
 // Instead we have Component 2
 ////////////////////////////////////////////////////////////
 // Component : Dual Class XP matching script

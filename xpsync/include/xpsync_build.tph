@@ -203,5 +203,12 @@ COPY ~xpsync/spell/xpsteam.spl~ ~override~
 
 COPY ~xpsync/spell/xpsquir2.cre~ ~override~
   SAY NAME1 ~Elder Squirrel~
-  SAY NAME2 ~Elder Squirrel~   
+  SAY NAME2 ~Elder Squirrel~
+
+// Add the Train Party ability via global script baldur.bcs
+// Not sure if the COPY_EXISTING is required
+COPY_EXISTING ~baldur.bcs~ ~override~
+COMPILE ~xpsync/spell/add_pc_team_spell.baf~
+EXTEND_TOP ~baldur.bcs~ ~override/add_pc_team_spell.bcs~
+DELETE + ~override/add_pc_team_spell.bcs~
 

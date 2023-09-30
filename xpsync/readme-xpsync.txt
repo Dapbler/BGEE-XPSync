@@ -163,7 +163,7 @@ A: The dialogue patching tries to copy, decompile, search, patch and
    recompile every dialogue file in the game. For a combined EET install
    I'm guessing this is about 5000 dialogues. This is "fine" on
    relatively modern computers, but if you're playing on a classic system
-   it may take a while.
+   I'm guessing it may take a while.
    The alternative is curating short lists of files to patch for each potential
    game/mod install - which I'm not confident I'd maintain long term.
 
@@ -171,15 +171,24 @@ A: The dialogue patching tries to copy, decompile, search, patch and
 
 * XP Sync can die during XP matching (killing our squirrel mascot!)
 
-Sometimes (I've noticed in BG2EE) the sync process dies part way through
-and the innocent woodland spirits guiding the process vanish.
-As far as I can tell it's not a script issue but may be some sort of memory
-pressure culling.
+Sometimes (maybe 2% of runs) the sync process dies part way through
+and the invisble squirrel guiding the process vanishes.
+As far as I can tell it's not a script issue but may be some sort of culling
+of memory hog or summoned creatures.
+
 If it happens either use the Train Party power to resync everyone or apply
 the XPSync AI script to the affected character and press S to retry.
 
-If it is memory pressure a workarond may be to change the Memory Level option
-Baldur.lua - but that's a wild guess and yet to test.
+* If the XP Cap is in place XPSync won't correct NPCs with very high XP
+
+The game keeps track of XP above the XP cap but only reports higher XP as
+being the same as the XP cap. For example, if you set XP of an NPC as 2 billion
+with the debug console the game will report the XP stat as being 8 million in
+BG2EE, but subtracting 7 million XP still leaves them as having 1993 million.
+
+If you've imported a save with a very high XP NPC to sync you can either
+disable the XP Cap with Tweaks Anthology or use the console to set the NPC
+down to below the XP Cap.
 
 =======================================
 * License
@@ -201,8 +210,8 @@ Baldur.lua - but that's a wild guess and yet to test.
 Creatures are based on the core BGEE Squirrel.
 Spells are derivatives of the core BGEE Cure Light Wounds.
 
-Credit goes to avenger77 for the A7 Global Script Extender (taken from
-the Tweaks Anthology)
+Credit goes to avenger77 for providing inspiration on how to add innate powers
+via global scripts via Tweaks Anthology.
 The Level 1 NPCs developers wrote the the original dialogue insertion code,
 that guided me in my implementation and deserve credit for making a mod 
 so wonderful that I was inspired to write an earlier (very slow, 

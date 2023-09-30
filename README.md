@@ -51,8 +51,9 @@ If you don't have sed (for instance on Windows) then another option would be to 
 
 ## License
 
-I'm using a chunk of a77's code for global script addition and learned dialogue hooking from the Level 1 NPCs mod code. The Creative Commons license used by L1NPCs seemed appropriate. (See LICENSE.txt)
+The dialog handling was based on code from the Level 1 NPCs mod (although diverged so much that I can't blame them for any issues now ;) )
+The Creative Commons license used by L1NPCs seemed appropriate. (See LICENSE.txt)
 
-If you need to use the novel bits I wrote (or can get a release from a77/L1NPCs team for the other parts) and the CC license included isn't workable please contact me.
+If you need to use the novel bits I wrote (or can get a release from L1NPCs team for the join dialogues to maintain good faith) and the CC license included isn't workable please contact me.
 
 The Weidu software (included as Setup-xpsync.exe for Windows users) is licensed under the Gnu Public License v3 - a copy is included repository. See weidu.org for more information on Weidu.
