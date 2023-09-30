@@ -12,7 +12,7 @@ I suggest putting this at the end of your mod install order. The dialogue hook a
 
 ## Installation
 
-The "build" folder contains programs used to create this mod, they're not required for installation for play.
+The "xpsync_build" folder contains programs used to create this mod, they're not required for installation for play.
 
 For installation you will need he contents of the "xpsync" folder.
 
@@ -44,7 +44,7 @@ Some of the scripts are... a bit long... I built them using the python and bash 
 
 If you're on a un*x like system these will probably work fine.
 
-1. Modify build python scripts (in /build)
+1. Modify build python scripts (in /xpsync_build)
 2. cd xpsync_build; ./build.sh
 
 If you don't have sed (for instance on Windows) then another option would be to add a parameter to some of the build scripts and run with parmeters for each power of ten.

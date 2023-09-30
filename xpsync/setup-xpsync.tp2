@@ -11,7 +11,7 @@ AUTHOR ~Grozzle @ http forums.gibberlings3.net~
 
 // TP2 Flag(s)
 README ~xpsync/readme-xpsync_%LANGUAGE%.txt~ ~xpsync/readme-xpsync.txt~ // Look for language specific version first (I hope)
-VERSION ~v0.5.2~
+VERSION ~v0.6.0~
 
 // Language list
 LANGUAGE
